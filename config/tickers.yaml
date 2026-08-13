@@ -1,0 +1,73 @@
+# Daftar saham IDX yang dipantau oleh screener.
+#
+# CATATAN: Ini BUKAN salinan resmi indeks LQ45 — BEI me-rebalance LQ45/IDX30/IDX80
+# tiap 3 bulan (Februari, Mei, Agustus, November), jadi daftar resmi selalu berubah.
+# Ini daftar awal berisi saham-saham blue-chip/likuid yang relatif stabil dari
+# berbagai sektor, supaya screener langsung berguna begitu di-setup.
+#
+# Silakan edit bebas: tambah/hapus ticker sesuai saham yang mau kamu pantau.
+# Ticker harus pakai suffix ".JK" (format yfinance untuk saham IDX).
+#
+# Cek daftar resmi terbaru di: https://www.idx.co.id/id/data-pasar/data-saham/indeks-saham
+
+tickers:
+  # Perbankan
+  - { symbol: "BBCA.JK", name: "Bank Central Asia", sector: "Perbankan" }
+  - { symbol: "BBRI.JK", name: "Bank Rakyat Indonesia", sector: "Perbankan" }
+  - { symbol: "BMRI.JK", name: "Bank Mandiri", sector: "Perbankan" }
+  - { symbol: "BBNI.JK", name: "Bank Negara Indonesia", sector: "Perbankan" }
+  - { symbol: "BRIS.JK", name: "Bank Syariah Indonesia", sector: "Perbankan" }
+  - { symbol: "ARTO.JK", name: "Bank Jago", sector: "Perbankan" }
+
+  # Telekomunikasi & Teknologi
+  - { symbol: "TLKM.JK", name: "Telkom Indonesia", sector: "Telekomunikasi" }
+  - { symbol: "EXCL.JK", name: "XL Axiata", sector: "Telekomunikasi" }
+  - { symbol: "ISAT.JK", name: "Indosat Ooredoo Hutchison", sector: "Telekomunikasi" }
+  - { symbol: "TOWR.JK", name: "Sarana Menara Nusantara", sector: "Telekomunikasi" }
+  - { symbol: "GOTO.JK", name: "GoTo Gojek Tokopedia", sector: "Teknologi" }
+  - { symbol: "BUKA.JK", name: "Bukalapak", sector: "Teknologi" }
+
+  # Consumer Goods
+  - { symbol: "UNVR.JK", name: "Unilever Indonesia", sector: "Consumer Goods" }
+  - { symbol: "ICBP.JK", name: "Indofood CBP", sector: "Consumer Goods" }
+  - { symbol: "INDF.JK", name: "Indofood Sukses Makmur", sector: "Consumer Goods" }
+  - { symbol: "MYOR.JK", name: "Mayora Indah", sector: "Consumer Goods" }
+  - { symbol: "GGRM.JK", name: "Gudang Garam", sector: "Consumer Goods" }
+  - { symbol: "HMSP.JK", name: "HM Sampoerna", sector: "Consumer Goods" }
+  - { symbol: "SIDO.JK", name: "Industri Jamu Sido Muncul", sector: "Consumer Goods" }
+  - { symbol: "CPIN.JK", name: "Charoen Pokphand Indonesia", sector: "Consumer Goods" }
+  - { symbol: "AMRT.JK", name: "Sumber Alfaria Trijaya", sector: "Ritel" }
+
+  # Kesehatan
+  - { symbol: "KLBF.JK", name: "Kalbe Farma", sector: "Kesehatan" }
+
+  # Industri & Otomotif
+  - { symbol: "ASII.JK", name: "Astra International", sector: "Otomotif" }
+  - { symbol: "UNTR.JK", name: "United Tractors", sector: "Alat Berat" }
+
+  # Semen & Konstruksi
+  - { symbol: "SMGR.JK", name: "Semen Indonesia", sector: "Semen" }
+  - { symbol: "INTP.JK", name: "Indocement Tunggal Prakarsa", sector: "Semen" }
+
+  # Energi & Pertambangan
+  - { symbol: "PGAS.JK", name: "Perusahaan Gas Negara", sector: "Energi" }
+  - { symbol: "PTBA.JK", name: "Bukit Asam", sector: "Pertambangan" }
+  - { symbol: "ADRO.JK", name: "Adaro Energy", sector: "Pertambangan" }
+  - { symbol: "ITMG.JK", name: "Indo Tambangraya Megah", sector: "Pertambangan" }
+  - { symbol: "ANTM.JK", name: "Aneka Tambang", sector: "Pertambangan" }
+  - { symbol: "MDKA.JK", name: "Merdeka Copper Gold", sector: "Pertambangan" }
+  - { symbol: "INCO.JK", name: "Vale Indonesia", sector: "Pertambangan" }
+
+  # Properti
+  - { symbol: "BSDE.JK", name: "Bumi Serpong Damai", sector: "Properti" }
+  - { symbol: "CTRA.JK", name: "Ciputra Development", sector: "Properti" }
+  - { symbol: "SMRA.JK", name: "Summarecon Agung", sector: "Properti" }
+  - { symbol: "PWON.JK", name: "Pakuwon Jati", sector: "Properti" }
+
+  # Ritel & Lainnya
+  - { symbol: "MAPI.JK", name: "Mitra Adiperkasa", sector: "Ritel" }
+  - { symbol: "ACES.JK", name: "Ace Hardware Indonesia", sector: "Ritel" }
+  - { symbol: "ERAA.JK", name: "Erajaya Swasembada", sector: "Ritel" }
+
+# Region/timezone dipakai untuk timestamp laporan
+timezone: "Asia/Jakarta"

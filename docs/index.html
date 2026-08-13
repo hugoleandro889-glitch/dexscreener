@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDX Screener</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B0E11;
+    --panel:#12161C;
+    --panel-2:#171C24;
+    --border:#232933;
+    --text:#E8EAED;
+    --muted:#8B92A0;
+    --amber:#E8A33D;
+    --amber-dim:#8A6423;
+    --green:#3DDC84;
+    --red:#FF5C5C;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+    --sans: 'Inter', system-ui, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:var(--sans); -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--amber);}
+
+  /* ---- Ticker tape ---- */
+  .tape-wrap{
+    background:#000; border-bottom:1px solid var(--border);
+    overflow:hidden; white-space:nowrap; padding:8px 0;
+  }
+  .tape{
+    display:inline-block; white-space:nowrap;
+    animation:scroll-left 60s linear infinite;
+    font-family:var(--mono); font-size:13px;
+  }
+  .tape-wrap:hover .tape{ animation-play-state:paused; }
+  .tape span.item{ margin:0 22px; }
+  .tape .up{ color:var(--green); }
+  .tape .down{ color:var(--red); }
+  .tape .sym{ color:var(--muted); margin-right:6px; }
+  @keyframes scroll-left{
+    from{ transform:translateX(0); }
+    to{ transform:translateX(-50%); }
+  }
+
+  /* ---- Header ---- */
+  header{
+    padding:18px 24px 14px; border-bottom:1px solid var(--border);
+    display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+  .brand{ display:flex; align-items:baseline; gap:10px; }
+  .brand .mark{
+    font-family:var(--mono); font-weight:700; color:var(--bg); background:var(--amber);
+    padding:2px 7px; border-radius:3px; font-size:13px; letter-spacing:0.5px;
+  }
+  .brand h1{ font-size:18px; margin:0; font-weight:800; letter-spacing:-0.2px; }
+  .brand .sub{ color:var(--muted); font-size:12.5px; font-family:var(--mono); }
+  .updated{ color:var(--muted); font-size:12px; font-family:var(--mono); text-align:right; }
+
+  .disclaimer{
+    background:#1A1508; border-bottom:1px solid #3A2E0F; color:var(--amber);
+    font-size:12px; padding:7px 24px; font-family:var(--mono);
+  }
+
+  /* ---- Filter bar ---- */
+  .filters{
+    position:sticky; top:0; z-index:10; background:var(--panel);
+    border-bottom:1px solid var(--border);
+    padding:12px 24px; display:flex; gap:10px; flex-wrap:wrap; align-items:end;
+  }
+  .field{ display:flex; flex-direction:column; gap:4px; }
+  .field label{ font-size:10.5px; color:var(--muted); text-transform:uppercase; letter-spacing:0.6px; }
+  .field input, .field select{
+    background:var(--panel-2); border:1px solid var(--border); color:var(--text);
+    padding:7px 9px; border-radius:4px; font-size:13px; font-family:var(--sans);
+    min-width:90px;
+  }
+  .field input:focus, .field select:focus{ outline:1px solid var(--amber); border-color:var(--amber); }
+  #search{ min-width:180px; }
+  .range{ display:flex; gap:5px; align-items:center; }
+  .range input{ width:70px; }
+  .btn{
+    background:var(--panel-2); border:1px solid var(--border); color:var(--text);
+    padding:8px 13px; border-radius:4px; font-size:12.5px; cursor:pointer; font-family:var(--sans);
+    font-weight:600;
+  }
+  .btn:hover{ border-color:var(--amber); color:var(--amber); }
+  .btn.active{ background:var(--amber); color:var(--bg); border-color:var(--amber); }
+  .count{ margin-left:auto; color:var(--muted); font-size:12.5px; font-family:var(--mono); align-self:center; }
+
+  /* ---- Table ---- */
+  .table-wrap{ padding:0 24px 40px; overflow-x:auto; }
+  table{ width:100%; border-collapse:collapse; font-family:var(--mono); font-size:13px; margin-top:14px; }
+  thead th{
+    text-align:right; padding:9px 10px; color:var(--muted); font-weight:600;
+    border-bottom:1px solid var(--border); cursor:pointer; user-select:none;
+    font-size:11px; text-transform:uppercase; letter-spacing:0.5px; white-space:nowrap;
+  }
+  thead th:hover{ color:var(--amber); }
+  thead th.left, td.left{ text-align:left; }
+  thead th .arrow{ font-size:9px; margin-left:3px; opacity:0.7; }
+  tbody tr{ border-bottom:1px solid var(--border); cursor:pointer; }
+  tbody tr:hover{ background:var(--panel); }
+  td{ padding:9px 10px; text-align:right; white-space:nowrap; }
+  td.up{ color:var(--green); }
+  td.down{ color:var(--red); }
+  td.name-cell{ text-align:left; }
+  .ticker{ font-weight:700; color:var(--text); }
+  .company{ color:var(--muted); font-size:11.5px; display:block; }
+  .sector-tag{
+    font-size:10px; background:var(--panel-2); color:var(--muted); padding:2px 6px;
+    border-radius:3px; border:1px solid var(--border); font-family:var(--sans);
+  }
+  .star{ cursor:pointer; color:var(--border); font-size:15px; width:22px; text-align:center; }
+  .star.on{ color:var(--amber); }
+  .sentiment-badge{
+    font-size:10px; padding:2px 7px; border-radius:10px; font-family:var(--sans); font-weight:600;
+  }
+  .sentiment-positif{ background:#0F2A1C; color:var(--green); }
+  .sentiment-negatif{ background:#2A1414; color:var(--red); }
+  .sentiment-netral{ background:#1E2129; color:var(--muted); }
+  .sentiment-tidak.dinilai, .sentiment-belum{ background:#1E2129; color:var(--muted); }
+
+  /* ---- Expand panel ---- */
+  .expand-row td{ background:var(--panel); padding:0; }
+  .expand-inner{ padding:14px 18px; font-family:var(--sans); }
+  .expand-inner h4{ margin:0 0 8px; font-size:11px; text-transform:uppercase; color:var(--muted); letter-spacing:0.5px; }
+  .news-item{ padding:6px 0; border-bottom:1px dashed var(--border); font-size:13px; }
+  .news-item:last-child{ border-bottom:none; }
+  .news-item a{ color:var(--text); text-decoration:none; }
+  .news-item a:hover{ color:var(--amber); }
+  .news-meta{ color:var(--muted); font-size:11px; font-family:var(--mono); margin-left:6px; }
+  .no-news{ color:var(--muted); font-size:13px; font-style:italic; }
+  .sentiment-reason{ color:var(--muted); font-size:12px; margin-top:8px; }
+
+  .empty-state{ padding:60px 24px; text-align:center; color:var(--muted); font-family:var(--mono); }
+
+  @media (max-width: 700px){
+    .filters{ padding:12px; }
+    .table-wrap{ padding:0 8px 30px; }
+    header{ padding:14px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="tape-wrap"><div class="tape" id="tape"></div></div>
+
+<div class="disclaimer">⚠ Data untuk riset pribadi, bukan rekomendasi beli/jual. Selalu lakukan analisis sendiri sebelum berinvestasi.</div>
+
+<header>
+  <div class="brand">
+    <span class="mark">IDX</span>
+    <h1>Stock Screener</h1>
+    <span class="sub">/ dashboard riset saham Bursa Efek Indonesia</span>
+  </div>
+  <div class="updated" id="updated">memuat data...</div>
+</header>
+
+<div class="filters">
+  <div class="field">
+    <label>Cari</label>
+    <input type="text" id="search" placeholder="Ticker atau nama...">
+  </div>
+  <div class="field">
+    <label>Sektor</label>
+    <select id="sectorFilter"><option value="">Semua sektor</option></select>
+  </div>
+  <div class="field">
+    <label>PER (min–max)</label>
+    <div class="range">
+      <input type="number" id="peMin" placeholder="min">
+      <input type="number" id="peMax" placeholder="max">
+    </div>
+  </div>
+  <div class="field">
+    <label>Div. yield min (%)</label>
+    <input type="number" id="dyMin" placeholder="0" style="width:80px">
+  </div>
+  <div class="field">
+    <label>&nbsp;</label>
+    <button class="btn" id="watchlistBtn">☆ Watchlist</button>
+  </div>
+  <div class="field">
+    <label>&nbsp;</label>
+    <button class="btn" id="resetBtn">Reset filter</button>
+  </div>
+  <div class="count" id="count"></div>
+</div>
+
+<div class="table-wrap">
+  <table id="stockTable">
+    <thead>
+      <tr>
+        <th></th>
+        <th class="left" data-key="name">Saham <span class="arrow"></span></th>
+        <th data-key="price">Harga <span class="arrow"></span></th>
+        <th data-key="change_pct">Δ Hari Ini <span class="arrow"></span></th>
+        <th data-key="pe_ratio">PER <span class="arrow"></span></th>
+        <th data-key="dividend_yield">Div. Yield <span class="arrow"></span></th>
+        <th data-key="market_cap">Market Cap <span class="arrow"></span></th>
+        <th data-key="volume">Volume <span class="arrow"></span></th>
+        <th class="left" data-key="sentiment">Sentimen <span class="arrow"></span></th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="empty-state" id="emptyState" style="display:none">Tidak ada saham yang cocok dengan filter ini.</div>
+</div>
+
+<script>
+const DATA_URL = './data/stocks.json';
+const WATCHLIST_KEY = 'idx_screener_watchlist';
+
+let allStocks = [];
+let sortKey = 'market_cap';
+let sortDir = -1;
+let expandedSymbol = null;
+let watchlistOnly = false;
+
+function getWatchlist(){
+  try{ return JSON.parse(localStorage.getItem(WATCHLIST_KEY) || '[]'); }
+  catch(e){ return []; }
+}
+function toggleWatchlist(symbol){
+  let wl = getWatchlist();
+  if(wl.includes(symbol)) wl = wl.filter(s => s !== symbol);
+  else wl.push(symbol);
+  localStorage.setItem(WATCHLIST_KEY, JSON.stringify(wl));
+  render();
+}
+
+function fmtNum(n, decimals=0){
+  if(n === null || n === undefined) return '–';
+  return n.toLocaleString('id-ID', {maximumFractionDigits: decimals});
+}
+function fmtPrice(n){
+  if(n === null || n === undefined) return '–';
+  return 'Rp' + n.toLocaleString('id-ID', {maximumFractionDigits: 0});
+}
+function fmtMarketCap(n){
+  if(n === null || n === undefined) return '–';
+  if(n >= 1e12) return (n/1e12).toFixed(1) + 'T';
+  if(n >= 1e9) return (n/1e9).toFixed(1) + 'M';
+  return fmtNum(n);
+}
+function fmtPct(n){
+  if(n === null || n === undefined) return '–';
+  const sign = n > 0 ? '+' : '';
+  return sign + n.toFixed(2) + '%';
+}
+function sentimentClass(label){
+  if(!label) return 'sentiment-netral';
+  const norm = label.toLowerCase().replace(' ', '-');
+  if(norm.includes('positif')) return 'sentiment-positif';
+  if(norm.includes('negatif')) return 'sentiment-negatif';
+  if(norm.includes('netral')) return 'sentiment-netral';
+  return 'sentiment-belum';
+}
+
+function buildTape(stocks){
+  const sorted = [...stocks].filter(s => s.price !== null)
+    .sort((a,b) => (b.change_pct||0) - (a.change_pct||0));
+  const items = sorted.map(s => {
+    const cls = (s.change_pct||0) >= 0 ? 'up' : 'down';
+    const arrow = (s.change_pct||0) >= 0 ? '▲' : '▼';
+    return `<span class="item"><span class="sym">${s.symbol.replace('.JK','')}</span><span class="${cls}">${fmtPrice(s.price)} ${arrow} ${fmtPct(s.change_pct)}</span></span>`;
+  }).join('');
+  document.getElementById('tape').innerHTML = items + items; // duplikat buat efek loop mulus
+}
+
+function populateSectors(stocks){
+  const sectors = [...new Set(stocks.map(s => s.sector))].sort();
+  const sel = document.getElementById('sectorFilter');
+  sectors.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    sel.appendChild(opt);
+  });
+}
+
+function getFiltered(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const sector = document.getElementById('sectorFilter').value;
+  const peMin = parseFloat(document.getElementById('peMin').value);
+  const peMax = parseFloat(document.getElementById('peMax').value);
+  const dyMin = parseFloat(document.getElementById('dyMin').value);
+  const wl = getWatchlist();
+
+  let rows = allStocks.filter(s => {
+    if(q && !(s.symbol.toLowerCase().includes(q) || s.name.toLowerCase().includes(q))) return false;
+    if(sector && s.sector !== sector) return false;
+    if(!isNaN(peMin) && (s.pe_ratio === null || s.pe_ratio < peMin)) return false;
+    if(!isNaN(peMax) && (s.pe_ratio === null || s.pe_ratio > peMax)) return false;
+    if(!isNaN(dyMin) && (s.dividend_yield === null || s.dividend_yield < dyMin)) return false;
+    if(watchlistOnly && !wl.includes(s.symbol)) return false;
+    return true;
+  });
+
+  rows.sort((a,b) => {
+    let av = sortKey === 'sentiment' ? (a.sentiment?.label || '') : a[sortKey];
+    let bv = sortKey === 'sentiment' ? (b.sentiment?.label || '') : b[sortKey];
+    if(sortKey === 'name'){ av = a.name; bv = b.name; }
+    if(av === null || av === undefined) av = sortDir === 1 ? Infinity : -Infinity;
+    if(bv === null || bv === undefined) bv = sortDir === 1 ? Infinity : -Infinity;
+    if(typeof av === 'string') return sortDir * av.localeCompare(bv);
+    return sortDir * (av - bv);
+  });
+
+  return rows;
+}
+
+function render(){
+  const rows = getFiltered();
+  const tbody = document.getElementById('tbody');
+  const wl = getWatchlist();
+  document.getElementById('count').textContent = `${rows.length} dari ${allStocks.length} saham`;
+  document.getElementById('emptyState').style.display = rows.length ? 'none' : 'block';
+  document.getElementById('watchlistBtn').classList.toggle('active', watchlistOnly);
+  document.getElementById('watchlistBtn').textContent = watchlistOnly ? '★ Watchlist' : '☆ Watchlist';
+
+  tbody.innerHTML = '';
+  rows.forEach(s => {
+    const tr = document.createElement('tr');
+    const changeClass = (s.change_pct||0) >= 0 ? 'up' : 'down';
+    const isStarred = wl.includes(s.symbol);
+    tr.innerHTML = `
+      <td class="star ${isStarred ? 'on' : ''}" data-symbol="${s.symbol}">${isStarred ? '★' : '☆'}</td>
+      <td class="name-cell">
+        <span class="ticker">${s.symbol.replace('.JK','')}</span>
+        <span class="company">${s.name} · <span class="sector-tag">${s.sector}</span></span>
+      </td>
+      <td>${fmtPrice(s.price)}</td>
+      <td class="${changeClass}">${fmtPct(s.change_pct)}</td>
+      <td>${s.pe_ratio ? s.pe_ratio.toFixed(1) : '–'}</td>
+      <td>${s.dividend_yield !== null ? s.dividend_yield.toFixed(2) + '%' : '–'}</td>
+      <td>${fmtMarketCap(s.market_cap)}</td>
+      <td>${fmtNum(s.volume)}</td>
+      <td class="left"><span class="sentiment-badge ${sentimentClass(s.sentiment?.label)}">${s.sentiment?.label || 'tidak dinilai'}</span></td>
+    `;
+    tr.addEventListener('click', (e) => {
+      if(e.target.classList.contains('star')) return;
+      expandedSymbol = expandedSymbol === s.symbol ? null : s.symbol;
+      render();
+    });
+    tbody.appendChild(tr);
+
+    tr.querySelector('.star').addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleWatchlist(s.symbol);
+    });
+
+    if(expandedSymbol === s.symbol){
+      const exTr = document.createElement('tr');
+      exTr.className = 'expand-row';
+      const newsHtml = (s.news && s.news.length)
+        ? s.news.map(n => `<div class="news-item"><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a><span class="news-meta">${n.source || ''}</span></div>`).join('')
+        : `<div class="no-news">Tidak ada berita terbaru untuk saham ini.</div>`;
+      exTr.innerHTML = `<td colspan="9"><div class="expand-inner">
+          <h4>Berita Terbaru</h4>
+          ${newsHtml}
+          ${s.sentiment?.reason ? `<div class="sentiment-reason">Catatan sentimen: ${s.sentiment.reason}</div>` : ''}
+        </div></td>`;
+      tbody.appendChild(exTr);
+    }
+  });
+}
+
+function setupSortHeaders(){
+  document.querySelectorAll('thead th[data-key]').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.key;
+      if(sortKey === key) sortDir *= -1;
+      else { sortKey = key; sortDir = -1; }
+      document.querySelectorAll('thead .arrow').forEach(a => a.textContent = '');
+      th.querySelector('.arrow').textContent = sortDir === 1 ? '▲' : '▼';
+      render();
+    });
+  });
+}
+
+function setupFilters(){
+  ['search','sectorFilter','peMin','peMax','dyMin'].forEach(id => {
+    document.getElementById(id).addEventListener('input', render);
+  });
+  document.getElementById('watchlistBtn').addEventListener('click', () => {
+    watchlistOnly = !watchlistOnly;
+    render();
+  });
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    document.getElementById('search').value = '';
+    document.getElementById('sectorFilter').value = '';
+    document.getElementById('peMin').value = '';
+    document.getElementById('peMax').value = '';
+    document.getElementById('dyMin').value = '';
+    watchlistOnly = false;
+    render();
+  });
+}
+
+async function init(){
+  try{
+    const res = await fetch(DATA_URL);
+    if(!res.ok) throw new Error('fetch failed');
+    const data = await res.json();
+    allStocks = data.stocks || [];
+    document.getElementById('updated').textContent = `Update terakhir: ${data.generated_at_wib || '–'}`;
+    buildTape(allStocks);
+    populateSectors(allStocks);
+    setupSortHeaders();
+    setupFilters();
+    render();
+  }catch(e){
+    document.getElementById('updated').textContent = 'Gagal memuat data';
+    document.getElementById('emptyState').style.display = 'block';
+    document.getElementById('emptyState').textContent = 'Belum ada data. Jalankan workflow "Update Stock Data" di GitHub Actions dulu, atau jalankan src/build_data.py secara lokal.';
+  }
+}
+init();
+</script>
+</body>
+</html>
