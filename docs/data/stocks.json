@@ -1,22 +1,28 @@
 {
-  "generated_at": "2026-08-13T02:35:16.965266+00:00",
-  "generated_at_wib": "2026-08-13 09:35 WIB",
+  "generated_at": "2026-08-13T12:03:17.034200+00:00",
+  "generated_at_wib": "2026-08-13 19:03 WIB",
   "stocks": [
     {
       "symbol": "BBCA.JK",
       "name": "Bank Central Asia",
       "sector": "Perbankan",
-      "price": 6300.0,
-      "change_pct": -0.79,
-      "volume": 6835100,
-      "market_cap": 774120342028288,
-      "pe_ratio": 13.352833,
+      "price": 6375.0,
+      "change_pct": 0.39,
+      "volume": 83208000,
+      "market_cap": 783116151029760,
+      "pe_ratio": 13.511795,
       "dividend_yield": 561.0,
       "eps": 471.81,
-      "week52_high": 8975.0,
+      "week52_high": 8950.0,
       "week52_low": 4820.0,
       "error": null,
       "news": [
+        {
+          "title": "BBCA Dibidik ke Harga Ini - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tc1BsbjJjX3llWllSUVdCMklJM2xXQ0hpLTRhREctNTd3ZmMwMkUzRjd4TkU5Q1F2ZU1vT0ptWmZrOVpDdldVNzUwdi1qWmRHMmJPamJySkhUM2pjZDg4b3VFMjBVZVdWR3V3?oc=5",
+          "published": "2026-08-13T07:17:03+00:00",
+          "source": "investor.id"
+        },
         {
           "title": "Saham Bank Central Asia (BBCA) Memutar Keadaan - investor.id",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZHNvRF90ZVhiNkRidE5PRzRzb2xBcVk3eFNGcU5ERGJ1cHM0LTVfY3FvejlHTkZ6RV9XdFpUU3BDTFRjeFJuMlZOS1YzdkNvT0xKUEFyN0dVOEVpSUp5cE1XelpwMlMxSnlQckxiRWtYeE9hZVJKRU83V200MEF6dG53a3A?oc=5",
@@ -30,22 +36,16 @@
           "source": "Bloomberg Technoz"
         },
         {
-          "title": "Nego Saham Bank Central Asia (BBCA) - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45dzNDWUk5cXFvc21Yd3BQaGRzOWI2SFZlZ19HeHQxOVFvSEROWDdsZGFvVThSUUxnYXJzcW5Ib3czTGVOUjc1YllXSnZXc3lPTEVuOVNGMmEtZmVSMGdJV2Q3ZlhGZVFOTGhFZXo4dVdvb2x2R2c?oc=5",
-          "published": "2026-08-12T04:33:15+00:00",
-          "source": "investor.id"
+          "title": "Ahli Waris Michael Bambang Hartono Terima Saham Rp 52 Triliun Per Orang - achmadnurhidayat.id",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTlhLR211QUVwekswN1p1TGZCemhlUGFGWWxFR1RXRWVOSm52QzlsLW1pOFVGVWttUXVxTmI3ODRIS0hySGFnNXdyMjY5TlFrOVpNLWFRSWhPc2tfWURPTjVEVHV1S3k4TFY4VTVZT3cxMTdTcm5hYjZ0VGQ3VG1ZbQ?oc=5",
+          "published": "2026-08-13T06:31:22+00:00",
+          "source": "achmadnurhidayat.id"
         },
         {
           "title": "Analisis Saham PT BANK CENTRAL ASIA Tbk (BBCA) Menggunakan Pendekatan Fundamental dan Teknikal - Kompasiana.com",
           "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNeDRXQ3dMTXMyWVlyY2ozbFFWdlFBSEVnNGtDaTdteThjRllWQmZRamJfZFdrMXBuZFBFQm1PUVgxWGdBb2RHeGpQTHR0OUM5czFMZnB2bUEtNmVUNC03dFphYm51dGhadGhRd0h1SlFZU2NzY0M5c2FmSm1MVWhobHhQckwxbzl4MXFOTTZnNjJ4eW9ITV9iLU5ET1ZnSE90alJwS25saXpaLW5UQTJHZ2R4UW1ub3dLWHBMYTMtWUpsS0VSVWxfRVhjQlhaTEZWWkp2VEM2ellpMzFSRjFYTkhiZE5DcW5RUzlPeUgxTU9tVWUwUF9jTHFybGJDN3JSR2NtNg?oc=5",
           "published": "2026-08-08T15:29:16+00:00",
           "source": "Kompasiana.com"
-        },
-        {
-          "title": "Nasib Saham Bank Central Asia (BBCA) - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mSHFpN0NSdEM2aDRQN0o4blpjWUFjb2g5UGllOS1ldG9vT1BfNDVaLUpfcUZQQktIOVYxaHQwUlJhanMxa254c2R6NHhTZ3paRHpNN1BzVUNielh6ck5MZlRjcEtLVWVNZG1PQ3k3STgyOVc5Nk5F?oc=5",
-          "published": "2026-08-11T01:32:53+00:00",
-          "source": "investor.id"
         }
       ],
       "sentiment": {
@@ -57,11 +57,11 @@
       "symbol": "BBRI.JK",
       "name": "Bank Rakyat Indonesia",
       "sector": "Perbankan",
-      "price": 3100.0,
-      "change_pct": -0.96,
-      "volume": 27271100,
-      "market_cap": 466782280220672,
-      "pe_ratio": 7.9679227,
+      "price": 3110.0,
+      "change_pct": -0.64,
+      "volume": 165084600,
+      "market_cap": 468288001802240,
+      "pe_ratio": 7.9936256,
       "dividend_yield": 1335.0,
       "eps": 389.06,
       "week52_high": 4270.0,
@@ -81,22 +81,22 @@
           "source": "investor.id"
         },
         {
+          "title": "Investor Asing Borong Saham BBRI Dkk, IHSG Melesat - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2tBdTlmQVYwU1VSOV9uUTRKT2pDejhJZ2dvUk85ZHVEdm1UWUpBRFl2eFlWUURHNXJ1dkNaR0NvSk5JWm5RWlM5X2hHZ0xNb3B0aGZvV3JhbkJSUm82cktpcXBwS2Rzd1RaQ3E2dm1aZi1ZT0FtbkotNDJkdk9CZENKYXdaS2pBeXVlTkJvZm1XeUYzdERTd29MeTh3LXpxV0Zj?oc=5",
+          "published": "2026-08-10T01:48:22+00:00",
+          "source": "Bloomberg Technoz"
+        },
+        {
           "title": "Cuma 9 Saham Indonesia Bertahan di MSCI Global Standard, Ini Daftarnya - InvestorTrust",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUGZ0bE9fVjN4bWFBa2R2T1B0LTFzNThRb0hjeEdISTVSSGFnLTl2MFliRVRkUWpyVTBKRHU4eXpDbmhuZ0ZRc0FnaE5VOEU1dkJOTWpramIwQjJheG8wVDRTQmVISm1kdHczbHdUZjNmOXlfajlCZVpzRU03RTd1eGtzWU5lV1djRHVqWnNoX0VWS3RxcWx1ZmlnQ2VNTzIyUkdiWlBjajZXUU1s?oc=5",
           "published": "2026-08-12T10:56:00+00:00",
           "source": "InvestorTrust"
         },
         {
-          "title": "Investor Asing Diam-diam Borong Saham BBRI Kala IHSG Merah - Bloomberg Technoz",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXlLRzl2ektQUjF2eFFxOTlMazQtVU82QWhfZ2ZaWFBWVUlmenBwbkRvRFdWMV9aZUVCMEk2alhXUllMc2NaQzAyeGJoN0xxSVpyTS16SDB5Y190dU1aXzBORk9EQWEtNFNGb3RYcEZUS1lIUTR5Rkp5elI2MDRGcUU4UXFaU1pFTjZtbDRWQUY3ajhCMGdjMkJEdGxWX25iU3BHbHg3eDZIRFU1NW5Z?oc=5",
-          "published": "2026-08-12T01:45:04+00:00",
-          "source": "Bloomberg Technoz"
-        },
-        {
-          "title": "9 Saham Indonesia Bertahan di MSCI Global Standard Index, Cek Daftarnya - RCTI+",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1EySlJLQ1BTNGExcnhuNWRCc0M2RnpGN01vN2J1Q1lqbXA5NTZzNkpKbk1lNkw1eUFTU000MlNQTE1JZE1WT1FsU3R1VTN2bXByaTVQNFY4NDMyX1lVbzVaQlQtU3pMZmlSQXN2R1BEYkNGZjZqdjFHODlqR3NzQkhXek1EdXhRTE5zbDVMdG80dG5Wc0xURlAzWlZGSk1laWVNNHJPc0FITzAtVGRBYVZTZUpwY0MtbFFud1k4OU9WZGI1LUE?oc=5",
-          "published": "2026-08-12T23:50:04+00:00",
-          "source": "RCTI+"
+          "title": "Asing Beli Saham BBRI Rp 61,3 Miliar Sesi I Perdagangan BEI - achmadnurhidayat.id",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XOUZPdExZaXZzNVd0TkhQeWo1TGoxZFVpdFlMWkpFR2hxLWtZVFpEMEtKRFpIdndsRWlxOVoxU2FsV3RwWGxnSmtWejhLSFRHcjBKbmt1WnVOSjI0YXZiOXFYZEs2Tk0?oc=5",
+          "published": "2026-08-11T06:44:21+00:00",
+          "source": "achmadnurhidayat.id"
         }
       ],
       "sentiment": {
@@ -108,11 +108,11 @@
       "symbol": "BMRI.JK",
       "name": "Bank Mandiri",
       "sector": "Perbankan",
-      "price": 4110.0,
-      "change_pct": -0.48,
-      "volume": 16179800,
-      "market_cap": 383600004431872,
-      "pe_ratio": 6.158134,
+      "price": 4130.0,
+      "change_pct": 0.0,
+      "volume": 108708200,
+      "market_cap": 383979874156544,
+      "pe_ratio": 6.1881003,
       "dividend_yield": 1155.0,
       "eps": 667.41,
       "week52_high": 5375.0,
@@ -120,9 +120,15 @@
       "error": null,
       "news": [
         {
-          "title": "Samuel Sekuritas Merekomendasikan Beli Saham Bank Mandiri BMRI - achmadnurhidayat.id",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJNXFZaEJtb241Sjg5TkVrTjF4M3BtYzFZWmNMa3pKekdSUnNvY0djWFByZ0RFTjVsLWNibU8yYkpuTFBJbnhfbWdjOENMZ2VoOGlfTmZMNVhzTG43d1JRRlVKNEtGR19HVWlmWE5PSkFFYnRPamhkQ2RBWHI?oc=5",
-          "published": "2026-08-11T10:45:18+00:00",
+          "title": "Laba Bersih Bank Mandiri (BMRI) Juli 2026 Diungkap - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZU85NlZoZ3FBZm5nODdZcGpwMDFsMVI5U1BrTndHYzZJM2I3bFNLNGREUDRWZmU0T1Z2LWktMXc3TVhIcWxldkpsOGM3UUFNazlwLUFoYzFha1FYTlJGaXdRRzB6ZENVUWhCQkc1RjJ2UGVFYTNlbWxmdDNkUWxHNjU2cE0wd25mZGc?oc=5",
+          "published": "2026-08-13T10:38:02+00:00",
+          "source": "investor.id"
+        },
+        {
+          "title": "Laba Bersih Bank Mandiri Tumbuh 24 Persen Hingga Juli 2026 - achmadnurhidayat.id",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAteTZwbjREaDZ0M0dvRUh1alpDSzh3c3RuUlJPeEc4dUZUX2FXZXhVcmFyd2RKenNaYzdDMy1ra1o1VTNOR2RCRURrRE4tRkxib1pmQTJpaU02N2F0QVdoeHV6S05uLTJhVkNiUVNHSDZiZnNkY29ZVg?oc=5",
+          "published": "2026-08-13T10:44:35+00:00",
           "source": "achmadnurhidayat.id"
         },
         {
@@ -141,13 +147,13 @@
       "symbol": "BBNI.JK",
       "name": "Bank Negara Indonesia",
       "sector": "Perbankan",
-      "price": 3590.0,
-      "change_pct": 0.28,
-      "volume": 3032400,
-      "market_cap": 133617841864704,
-      "pe_ratio": 6.469984,
+      "price": 3610.0,
+      "change_pct": 0.84,
+      "volume": 25813700,
+      "market_cap": 134497043480576,
+      "pe_ratio": 6.5056763,
       "dividend_yield": 976.0,
-      "eps": 554.87,
+      "eps": 554.9,
       "week52_high": 4730.0,
       "week52_low": 2990.0,
       "error": null,
@@ -159,22 +165,22 @@
           "source": "investor.id"
         },
         {
+          "title": "MSCI Pertahankan Status Emerging Market RI, 2 Saham di Indeks Utama Terdampak - MetroTVNews.com",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnlrVC1LZTdwbEFOdUp2cEVOc0pJTGdmOHAwU29UNGNZeWVZWGF4Z1pnOUNTZUgwNFFmZ1hrYWhIM0dVQVV0UWhGTW5PanJoSWVicDJiZHJzTlU1dXZrMGdScFE4TFdzd1VVb1R2bDlFOW0tczZsYVNlc3did3FOVmFFR2pUOVJCWEhwQXFVMnR6SVQ4cFdjYjNTSGZWZHZWbnZDdmRLUUI3ZzRoZVJsdUlSU2l5NjIzOEE?oc=5",
+          "published": "2026-08-13T02:36:36+00:00",
+          "source": "MetroTVNews.com"
+        },
+        {
           "title": "Kinerja Bank Besar Semester I 2026 Solid, Tiga Saham Bank Ini Jadi Pilihan Analis - kontan.co.id",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR2xmSmNYOHhQZEdPZFBhTU9OZ054VllvZnJDQnJadXdJR2I5ZVV2eThfak02VFpVekF5X3pHeFhiRzFEQUVrVzZIcEhhNGZiZnQxakdqTVhyX0tZQzdLeFc5OXlZMk40eUNxT0pndFZPSk11WkhjS0ZEbFVrbkxPdktwanBvNDBVcUkwUmM0Q3ZvOHA1NEZBT3BsNkwyNkJVT0dCd3NseXZHUWwxNUhSMkxpTWFxQdIBrwFBVV95cUxQSXh3LXRlajVRT1BYZTNlZjZyQmMyZGF5MmlEZHJXVGp0VUMwYlhyS0Zad1dnNFhZM2dfcjFCQlNCOU16YkxzelVhWWFaRWtEWmVZZW9qS1FmRC1tS0hwZUJINmhuV0hRSmpqYTRER2ZRY2RPX3RaTDM0RHRmN2xFcXd5cmE2QS1ka2x6QVNtRWRMU1NpTnBDZFlkaHdqMnRhR05ESGY1T1FXcFhFWkdN?oc=5",
           "published": "2026-08-09T10:53:54+00:00",
           "source": "kontan.co.id"
         },
         {
-          "title": "Saham BBRI Lompat Nyaris 3%, Jadi Juara di Antara Bank Himbara - Bloomberg Technoz",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2lSNDludEhHQ25YeU1aWTFkLWQ0VTFVcWFlcjRHNktiZTV5aHJPNHZiVXNVanViMjNMdkdjekQxdWRqaXAtWXpmV0lKSHRFQUpsZWd2VEdCTXgyTDZ6aXFJcUl3Q1BNdkFTVXMxT0dDZVJYalljdUx6MUowcW9IN3hVdlM4TEhMT2IwV0laN2JweHpqeE45VU8zOWR3SnVZSEItdjAwdHFFZkRtRGRvSTNR?oc=5",
+          "title": "Saham BBRI Lompat Nyaris 3%, Jadi Juara di Antara Bank Himbara - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaVdWQlU3eDlmMGtFN1pFVTFMa0NsR0JTcVNQenY2Nkpfa21zRjJObEl2OHM3QXR6WEJXb1BzcGVwNzExb0toZ3BBc2d4TTlDUi1VRndGRjJ6T0dNdHdwZDRMeGJ1d1FVZzBUdmJVdGZsVlNDbVlFTm9GZEdFODBPd3B6dHhmMG55d0ZOYUlqNExpYnFDUmlBTUNLd05fN1lBdWNkZmdDaVVTcWpvNWR2NG16SWc?oc=5",
           "published": "2026-08-07T12:30:00+00:00",
           "source": "Bloomberg Technoz"
-        },
-        {
-          "title": "Saham Dua Bank Besar Murah Meriah, Potensi Cuan hingga 46% - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYkNJMm5fcTRtR3lZa0NZREM5Q3Y0TXZPYTA4c0dHakhoMWIxUzljRWpSNXZNUVN1NlJxcGstZlBtQ05UZWo2T2t6MW5IblF5Rkh0OUNoaDIxazc3elRWZHRmUWYwTldBdnB0Y0hpUzB3czl1MXlPbGFCejQ3LTRjaC1mMVF3YTBrQkx4dGNqRmhacnpi?oc=5",
-          "published": "2026-08-09T04:15:00+00:00",
-          "source": "investor.id"
         }
       ],
       "sentiment": {
@@ -186,11 +192,11 @@
       "symbol": "BRIS.JK",
       "name": "Bank Syariah Indonesia",
       "sector": "Perbankan",
-      "price": 1790.0,
-      "change_pct": -0.28,
-      "volume": 620400,
-      "market_cap": 82571375411200,
-      "pe_ratio": 10.475187,
+      "price": 1775.0,
+      "change_pct": -1.11,
+      "volume": 5630800,
+      "market_cap": 81879432691712,
+      "pe_ratio": 10.387406,
       "dividend_yield": 183.0,
       "eps": 170.88,
       "week52_high": 2830.0,
@@ -202,12 +208,6 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOemJITmdMYk1kaUtXVFNyam0zanp4WUpZci1CeDhJVm9GeEVuRnpYM2lEaVB3SllnYXFSUEkzeENXa1AzcUhaSlhWeWhQMTIzZDVIQnR4ek9JU1pNQmdjM1l3czRCelMwOUd5VlhkQ3g0ampXU3BVQ0M0QmlGclVfTm52WTUwTDFyYkxyZ19yQWllS245YWVTdC0xYVZ5VTR5UjlaZFE1SQ?oc=5",
           "published": "2026-08-11T02:04:12+00:00",
           "source": "obrolanbisnis.com"
-        },
-        {
-          "title": "Analisis Saham BRIS: Momentum Halaman 1 - Kompasiana.com",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSU1HWVhVS05SZnRTSzFQbTVBU2xtVVp6eS1paE1kMndTR2ZxRUVmSUM1S28ySnVKSEF5S0k0NHgwUldmRWtnUXhaMkhlem1mS0wxZ1dZV3pnUUxkRFFocjB2N2FDRFQxWGIzR2hyWm1hME01aG5RUEpnSmcxTU56bnpUdXl3cTlWTHlldGlYcmtuYzRqNndTNnB2NndGSFdGWkIyS0FKVEZVbWRIX1FtSGRtdkJla0FUTDJVV1J1S0pWUFlGM1hOMlBxY05HaGxwclVHVA?oc=5",
-          "published": "2026-08-09T18:48:31+00:00",
-          "source": "Kompasiana.com"
         }
       ],
       "sentiment": {
@@ -219,13 +219,13 @@
       "symbol": "ARTO.JK",
       "name": "Bank Jago",
       "sector": "Perbankan",
-      "price": 1185.0,
-      "change_pct": -5.58,
-      "volume": 2945100,
-      "market_cap": 16425676701696,
-      "pe_ratio": 48.6653,
+      "price": 1195.0,
+      "change_pct": -4.78,
+      "volume": 9043300,
+      "market_cap": 16564290060288,
+      "pe_ratio": 50.10482,
       "dividend_yield": null,
-      "eps": 24.35,
+      "eps": 23.85,
       "week52_high": 2440.0,
       "week52_low": 740.0,
       "error": null,
@@ -237,28 +237,28 @@
           "source": "idnfinancials.com"
         },
         {
+          "title": "Hasil Rebalancing MSCI Agustus 2026: GOTO Dihapus, CPIN Turun ke Small Cap, 9 Saham Keluar - Ajaib",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNWtsbXd0YXlUTDdrT2N5LWpnUWpmSk9SaHJrVHdhRUJoZTZudV9McjBjRlg1RzEtdFFYdW9zSEZvNnFWMFp2ejRscEd0M3JvMFlFZUF3ZXFuWU9yLUVVeVJLXzA0WEVvOE0xM3ZoMFJqdllkbnYzQ2FyRlloUVNCQzhxcFBrb1RqNmFmX3JMbEExODVnVXlMTHVVRzBTbmhoQkVHZGZHTjRWUXVfOXYtU0JseHdZZVVaWnlFaDk4Zw?oc=5",
+          "published": "2026-08-13T01:39:30+00:00",
+          "source": "Ajaib"
+        },
+        {
+          "title": "MSCI Ubah Komposisi Saham RI, Ekonom Beberkan Dampaknya ke Pasar Domestik - Infobanknews",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXEwd1FrME1Va0xFNGlieVBoZHFTNlBDNXRnaFIxOGRzLXAzWEhBX0xiNXBTcWZOS2JpUFpDT25ncDh5T2NJNkNBU3BNblQzZ1JycHZyM25CYVB6OG8xQ3owQ1AweUd5TkZUdk5JV3lGTUVnQUE1VVVKVjFSekhpZVIwWUtoZHUyNm5ZS3N0WWZoblB3bVJyc2pHUTk3Zw?oc=5",
+          "published": "2026-08-13T07:20:00+00:00",
+          "source": "Infobanknews"
+        },
+        {
+          "title": "MSCI Keluarkan Saham GOTO-CPIN dari Indeks Global - SWA.co.id",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdXZBSFItWmg0b3VLTkRSWEd4QW5OdjV6TW00dXFhOWx2SEE1R21HdmxDeHYwbmR2QVA4dU1IU3Brc3hpQ3pOck9qYVozTFZILUJaLVNOYkJPOEl6b3lYek9WOGszb0UyWU91bkRGMVIxTEludUNia1M4VUVwaGxXZ1M2V3oyUQ?oc=5",
+          "published": "2026-08-13T04:43:00+00:00",
+          "source": "SWA.co.id"
+        },
+        {
           "title": "Resmi! Ini Hasil Review Indeks MSCI Agustus 2026, Cek Prediksi Pasar Saham - kontan.co.id",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQXV0UDhuWE12RjQwR0pDZzBwc1BSRHJBVS1ISTRBclJOQ29ObG1XbXZSNzQtaEFLcFAyYjM1aVAwQ2dYM1dJUm0zdW9oM2JrQW96QXBOZ0R2VGM4cWFnRkMwSFV6RGhHWnRwRktDbURRMEs5SmQyOUI4NGhjS0h1M3RBQWIwbGh5anBpRUJBRVhyQWE3bWdOVHJxeFk5TzVaUEFDNEtRbFpwU2t00gGkAUFVX3lxTE1nbGtXRzItSjFraGU5LVdReXhCMnZMMm1Rd0p4X0lfMUFUeDMzczdZeXpValBKWExoeE1GbGhuSDdvLWp3NTNvV01nak5IS0N2eEphLVFPT0NpMFd4dWJGUkM0N1o5aUF6UzZVcmRJWGdZMDlKUXVhMzRROGlDMUJKUVJmaGhzRGRkMC0xelRIUHgyVzQ5ZkhWdzlmaW9KNDFtcWw0?oc=5",
           "published": "2026-08-12T22:51:52+00:00",
           "source": "kontan.co.id"
-        },
-        {
-          "title": "Daftar 10 Saham Indonesia yang Dikeluarkan MSCI per Agustus 2026 - CNN Indonesia",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWNsS0JMM1VobHhTeHpRTThmMEM5VWtsRXlmQm85MDctTWdfVjFZSWtMc2Y2VlUwMGk2b0VuQUoxWHlWb2xiSnloV3FCSEZnanRUa0JfR1M5NHg1RHc1eEpnSHZDV2xJdFhBanBlcGRhaGJud21BS1NrRF9aZHpOSzZLVEVNT3hhMlJZWFljWENCWDZNUG9OMXdHLTl0dGtMWHhKYXBaTE9vZ1BWNFJzdVdBd2RKU0Y3MWg0Q1dSSWs2STl2Q0HSAcsBQVVfeXFMTVExLUxVQlpzXzl4am1fcjEzNTFEOXQyaXdMRHpUejdkaTdoWVBwem1MWDdkY3JRaW5CREg4N3dVVkhCQUx2YW1EcFowTjFsMnBJWFQ0aUtoMl9TMV9YVTRqejNkcWUwZFlvcF9xWml0cEpHUUJxaE1QakN0N0x1TTlIWW54dnpSa3RQdzd6bFA3Q0FsSTVvc0xPWmhtZV80ZExqaUoycHRNNmpfSFhwX2NDOGRsa2JkQzBDMWdreEEwd1IwVzQtckQwa00?oc=5",
-          "published": "2026-08-13T00:15:12+00:00",
-          "source": "CNN Indonesia"
-        },
-        {
-          "title": "Transaksi Saham Dominasi 88 Persen Investasi Nasabah Bank Jago (ARTO) di Ekosistem Bibit-Stockbit - KabarBursa.com",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcmNsdnNLeTBNcGs2ak5OYzRGWmR6WWdZYmFTeUFVMXlTWjB0WFNqSGhfRXQ4S184by1saFhIamhsVHlPNmhiLVNWRkxCVjdFQlIxVGtfamtkVDJGajBLbFl6cE16Tjh3TFFvcGhwUVFxcE9yRE5iWmhCbDBXQnJIUG5yXzZQenNLeW41aGV5TWFycjRENFBoX205M1h2SHQtU19RMDJPb3A1TUVWY3BDQ0VqSVNXemZMWWE2MWNTanAycDhFcmdZdTI4eWtWMVB4WHktVg?oc=5",
-          "published": "2026-08-07T03:01:00+00:00",
-          "source": "KabarBursa.com"
-        },
-        {
-          "title": "Bank Jago (ARTO) Jajaki Emas Digital, Perluas Pilihan Investasi - Bloomberg Technoz",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaFZwUEdTZkc3QWJQRDJnOE40MGlEQURGRU5fM2NZQWxiRzhWU0N3UXlEcndoVENOdGt1ekdVNXJJRmJ2X0NjWHF4NTRqckI4V0N4X0dOU1NWNlNyaTQ2d29HN3BLa0ZfTjAtbkpycnVDal91LVVhbmRweE1SMjg4Ynp2QndESWNXMnJ0bk1oTU1hcUo3TmZhX1hEQTUxc1d2S2FHVVpwTkw1ZFV2ckl3ZFhn?oc=5",
-          "published": "2026-08-07T04:05:11+00:00",
-          "source": "Bloomberg Technoz"
         }
       ],
       "sentiment": {
@@ -270,11 +270,11 @@
       "symbol": "TLKM.JK",
       "name": "Telkom Indonesia",
       "sector": "Telekomunikasi",
-      "price": 2600.0,
-      "change_pct": 0.39,
-      "volume": 8298800,
-      "market_cap": 256310444556288,
-      "pe_ratio": 14.5911665,
+      "price": 2590.0,
+      "change_pct": 0.0,
+      "volume": 76115000,
+      "market_cap": 255324632121344,
+      "pe_ratio": 14.535047,
       "dividend_yield": 862.0,
       "eps": 178.19,
       "week52_high": 3990.0,
@@ -286,12 +286,6 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTZIMF95Mm5qeFRyT0pIM1hyYm55RG9EeTJCbURlVm9WZDV2eFk3MzlvcVNqenZ6VmowVG1YdTZfSFBWRkY5UWMwMmxZVHh2SnNUd3U1RXAza1RHUHVIbk92eDBCWWJRc24zZVpuRG9Pd05HV2xpTGtpb2gxUjNkT1JMT2JPVm9mcjdla3RTbjFDYjI4cWFzdVB4cVAtN0N6MUo0dk95RGZaeE5oQzNMQmZFUjhXd9IBrgFBVV95cUxQVGNZVGM4LUlFelhrc21xWjd6NGoxaXJZVGhQemR4NFZkekhGUXc2TlFqZEhtUU5sRERKUVl5aWctR09jcEhLbzFBMFdaMDJINThodVZLXzRNYXNnamFjUlJ0VDBYaVhnRzZoRUJwUUVKSFI2YjdZTHhPRUxNV2JLR2tsODk5ZmoyRE8tSHNobFpMSVBLWm1uUlR4SG1lVlJPd0duUm5tU2dQV3pWdnc?oc=5",
           "published": "2026-08-12T09:37:37+00:00",
           "source": "kontan.co.id"
-        },
-        {
-          "title": "Dividen Telkom Terendus, Potensi Cuan Saham 35% - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb0ktQ2JOU0FKQmZLQ0xDR2VGVzc0MFBBMk01RzVNWmxBV1NMdUNzaXVUTFNNYm1UZU5RTm1ScUNyZGpIY2ttd2tycHJQS1VKdzFFSzlmYkFDQTZrWVpCZ0NjdVVBSm1qSGVQTFhfNnNDR1lzeVpOSklGbVpWTlctMnJCeFU5QQ?oc=5",
-          "published": "2026-08-09T10:02:00+00:00",
-          "source": "investor.id"
         },
         {
           "title": "Saham TLKM Menguat dalam Sepekan, ini Aktor Utama Penggerak Harga - KabarBursa.com",
@@ -306,10 +300,16 @@
           "source": "kontan.co.id"
         },
         {
-          "title": "Diumumkan Besok, Ini yang Wajib Dicermati Investor dari Review MSCI - CNBC Indonesia",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYlpyb2lBYWdpYUFBb3pwSWJBVG54ZXo4VWc2ZGMxWHR4a3FpNDE5aDZ0c09NWXVZRGVPcTRCT2ptaUZscHBhODBhY3pudlNvRVB6OXJ2cUJ1RFQzTTVmSkZOWWFRQ2NQQVV5TFpJeXZFWjFRMVNlUEpxbENyaDZzVmlLUExKM0RSckRmWUtFOGJSM0ZIY0xTMlV4U0IxRUVxMmdBV3RsNmdYdy1Hb0x0UVVuOFZjVEtkSVE2UWd0ZkFWRTN4cnpDckI5Yw?oc=5",
-          "published": "2026-08-12T04:30:38+00:00",
-          "source": "CNBC Indonesia"
+          "title": "Dividen Telkom Terendus, Potensi Cuan Saham 35% - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb0ktQ2JOU0FKQmZLQ0xDR2VGVzc0MFBBMk01RzVNWmxBV1NMdUNzaXVUTFNNYm1UZU5RTm1ScUNyZGpIY2ttd2tycHJQS1VKdzFFSzlmYkFDQTZrWVpCZ0NjdVVBSm1qSGVQTFhfNnNDR1lzeVpOSklGbVpWTlctMnJCeFU5QQ?oc=5",
+          "published": "2026-08-09T10:02:00+00:00",
+          "source": "investor.id"
+        },
+        {
+          "title": "Telkom Rampungkan Spin-Off InfraCo Tahap 2, Alihkan Aset Rp85,7 Triliun ke InfraNexia - KabarBursa.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ1NWSm4xZGI1N25SNjF3VTVoakFWbFgxckRENUU4VHIwQ1NsSEhZTnprZzA2T1NES2c1azZSaGZzcE9Hbk9nX2lWWGkxalR0cXRCZVpMS0VNNkZXVktwVnJWNy0yWjlHeUFtYmdWWmJ6c3NsdXlBTGdncE5RdWZldGpZd09vS2pubU4wcWJqSngyOWtxMmd1NHBMb3diRHBvWVpQR1VaY0tEN0lxYUlDZHhpVmF4ZHRTR0xYR0JtS3EwNlg0?oc=5",
+          "published": "2026-08-09T13:07:00+00:00",
+          "source": "KabarBursa.com"
         }
       ],
       "sentiment": {
@@ -321,10 +321,10 @@
       "symbol": "EXCL.JK",
       "name": "XL Axiata",
       "sector": "Telekomunikasi",
-      "price": 2600.0,
-      "change_pct": 1.56,
-      "volume": 1887700,
-      "market_cap": 47319642800128,
+      "price": 2630.0,
+      "change_pct": 2.73,
+      "volume": 13349800,
+      "market_cap": 47865640517632,
       "pe_ratio": null,
       "dividend_yield": 621.0,
       "eps": -249.09,
@@ -341,11 +341,11 @@
       "symbol": "ISAT.JK",
       "name": "Indosat Ooredoo Hutchison",
       "sector": "Telekomunikasi",
-      "price": 2510.0,
-      "change_pct": 2.03,
-      "volume": 24949500,
-      "market_cap": 80949530329088,
-      "pe_ratio": 10.819899,
+      "price": 2470.0,
+      "change_pct": 0.41,
+      "volume": 74698700,
+      "market_cap": 79659505025024,
+      "pe_ratio": 10.6474695,
       "dividend_yield": 451.0,
       "eps": 231.98,
       "week52_high": 2610.0,
@@ -368,11 +368,11 @@
       "symbol": "TOWR.JK",
       "name": "Sarana Menara Nusantara",
       "sector": "Telekomunikasi",
-      "price": 392.0,
-      "change_pct": 0.0,
-      "volume": 2753400,
-      "market_cap": 22818941042688,
-      "pe_ratio": 5.763858,
+      "price": 388.0,
+      "change_pct": -1.02,
+      "volume": 43429500,
+      "market_cap": 22586094256128,
+      "pe_ratio": 5.7050433,
       "dividend_yield": 352.0,
       "eps": 68.01,
       "week52_high": 700.0,
@@ -380,16 +380,16 @@
       "error": null,
       "news": [
         {
-          "title": "Emiten Grup Djarum Raih Pinjaman Rp1,5 Triliun - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmhFV1pSTnVuaUp4enJSbUJrc2FnbTN6R0gwcXNLQWptQXhKVXZQYWltWUN0ZU1DaE01YzgtRzdraGdoN3N1Njk0YzhyY3NNbUl1U2kwMTlwX0R0bEE3WWZsdnBrUmd1Mkk5eWFKR0hWZXFWZjVQbE5IdXhYOXFNa25SdkE?oc=5",
-          "published": "2026-08-11T06:58:00+00:00",
-          "source": "investor.id"
-        },
-        {
           "title": "Sarana Menara (TOWR) Raih Kredit Rp 1,5 Triliun dari CIMB Niaga, Ini Tujuannya - kontan.co.id",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNzZRRmtPZFNZSjZCdUw3ZFBXeWYwVDJobEtzc3Nhbi1xakp3eTBVMzVEbVNaclYwei0yWEV2SnFBS3llOWRFZlVGazhZazAwZlBfTzZkUlJqbmNFVnRNTTFhaHY0MEJybUI3eU82cjVNOElMNWZocjVJbUNiUzdISlRNazJLZHdaTkpLQWFiQ09WNVBsU3JyNHpfMUk0cHNxenJxTG54UlFSNjhjNDVn0gGnAUFVX3lxTE1PX3JCd3pNY1I3S3BkcV8wMV9uWEJHYmdUZ043b2tOZUgwVjdqelRFY3VuNnVoNTIzWHFRUzNwdzBQWjdabEpnaXRya1JoTW1lS3J0Y0pvcUpCUExEUVJSeW1KbjhWS3pySEpFYnIySm84dG5MVGZUNS1jVURXYTV0eXNQN2JtdWFiTDh6RTRJS1RuT2ZycXBuYnNFb1M0ZWFnZWt0cXVZ?oc=5",
           "published": "2026-08-11T10:13:57+00:00",
           "source": "kontan.co.id"
+        },
+        {
+          "title": "Emiten Grup Djarum Raih Pinjaman Rp1,5 Triliun - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmhFV1pSTnVuaUp4enJSbUJrc2FnbTN6R0gwcXNLQWptQXhKVXZQYWltWUN0ZU1DaE01YzgtRzdraGdoN3N1Njk0YzhyY3NNbUl1U2kwMTlwX0R0bEE3WWZsdnBrUmd1Mkk5eWFKR0hWZXFWZjVQbE5IdXhYOXFNa25SdkE?oc=5",
+          "published": "2026-08-11T06:58:00+00:00",
+          "source": "investor.id"
         },
         {
           "title": "TOWR Resmi Dikeluarkan dari Indeks LQ45, Cermati Rekomendasi Analis - kontan.co.id",
@@ -409,7 +409,7 @@
       "sector": "Teknologi",
       "price": 50.0,
       "change_pct": 0.0,
-      "volume": 6510100,
+      "volume": 19638700,
       "market_cap": 53304621006848,
       "pe_ratio": null,
       "dividend_yield": null,
@@ -419,10 +419,16 @@
       "error": null,
       "news": [
         {
-          "title": "Ini Alasan MSCI Depak Saham GOTO - finance.detik.com",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcTA3S1g1YXRvdzJYaVVVMzQzUEVHWm0zbFktMl9jd0pGU09mNVJLMmp4bEIxZk1GLS1ZMHlBLUtfdEhJZzNlaks5aV9TZDU4TzZwajVmbHBJZ2ZGQWdYYkF6T19QSUIzWHpfWlc1cVVQTnA2ME5LYmdJV0k4b1d1MTVfUmp5VTd0cGVzZNIBkgFBVV95cUxQbFpMOVFOTGpIQU9WNWV0RGhSZVpIUVhhUmExSlNMUEY2QUE5Nm9EdWNremVPcXdpQW10M21JUkFoN1dTazV0Ull5RnJsb3Z0eDVYamk0czhGeXpkN2NYVlA2NVFQWHNsZzVIUDI0ZEVLQXRkcHRnZENuMUVLQ0RLaGNyMlhIMWpMX185WnBjXzVndw?oc=5",
-          "published": "2026-08-12T23:44:02+00:00",
-          "source": "finance.detik.com"
+          "title": "Jadi saham gocap, begini cara MSCI hapus GOTO dari indeks global - idnfinancials.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNFRPbUthbURGU0tXMFFGRjZPMW8zeVpZaGdLbzV1NjRKaDFtNE9wamx5ZmF4SmtjSU81eVpmYVpETzFEX1FzaUVKU3JhQWxFOW53V213dWxYd24yVjFTUnFIb1N3TkJxUVpJMWhVRUxlWUlKY28zVlZheXJsdERLcHRyTHZyYWFuRXctMm4tVW5XcldzWmxWOG9ZYjB5ekNaZXh5NUE1NWVicUU?oc=5",
+          "published": "2026-08-13T00:30:00+00:00",
+          "source": "idnfinancials.com"
+        },
+        {
+          "title": "Dari Alibaba, Blackrock Hingga Vanguard; Investor Kakap Nyangkut Berjemaah di GOTO - KONTAN",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZEY1S2NjWXhvaGhLTDNiamNMWEdZdnRQWTNPa205ZWsyZE5CXzd3emh4dEQ3Y0Z1NUJTTW92YXRlbHdDS3QzbE0zNDc5VDRhVm53MEpwVXJsMmJnT0syRVhaN2stYjZGVm1fSWo0dklERXBCVVpzT1ROamlPdW9zS2dkR2V4b05sOUxSVmpwcTFqaUkweHFKRkxQUnVFYmgyMzBSOVBvN3lvc1I5cFZQU2o4YlY?oc=5",
+          "published": "2026-08-13T05:08:25+00:00",
+          "source": "KONTAN"
         },
         {
           "title": "Ini Deretan Alasan Kenapa Saham GOTO Susah Gerak dari Harga Rp50 - CNBC Indonesia",
@@ -431,22 +437,16 @@
           "source": "CNBC Indonesia"
         },
         {
-          "title": "Hasil Review MSCI Agustus, CPIN dan GOTO Keluar dari Global Standard, 9 Saham Didepak dari Small Cap - Kompas.com",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUDJkaUV0eE9oMEFjcFZfVENsamg4SEpsaXRURlBsYkRkSjA1QmQwY29BSUdCWVo5V3JTWWNueFpKT1RhLVBzbC02bHBqT25nOFpjckZ4SmZ6QkVxaFNEcDQzcFFhZWxVN0NKU2I5aUNHM2lRRFFNbkhTMnhmUzJsR2lHUm5raXB4c1pseEZLcXdBRnNRbGlNdndlTnNkbHNHZDJ3T1lubHp6V1V2UXh1TGVHSUR5Tno2ZGQ5cHNnQzU1SlRz?oc=5",
-          "published": "2026-08-12T22:31:00+00:00",
-          "source": "Kompas.com"
+          "title": "GoTo Bersuara usai Saham Keluar dari Indeks MSCI - CNN Indonesia",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLTdQUFMzb2s1WVN5WWhsQy1CS1lnSFdZSTFPd1Etd0tmajVod05jSUJoeVFGWUtqSG50NEh4SjhmVW9iNGJmWmljR3FBRUdZWkVnVVVuaEtDd2FjQ0VVMEwxVThmaHFaUC1BeUE3UmFKbnhBRXBlcnJ4ZElmbHRiY2JsbjZxUkZmRnVtVDNSWDBYR1BWZlVNNjY5RHhaZ2ZkOUlSNW14WnNiRzh2d3dRNtIBtgFBVV95cUxPMGxfVngyNG9hRTJMemx1RC1IdjRySUxJNmx5U201aEZSWUZiX25kNXlzRHNkYWdKYUtBbUNTcmlLMFBfREFOX0ZxY2g0bXJycl9UdkxpSTI4NDc3OWZrVnAzMnd0aHpLWk4waUxLc0xZMWV3dlZYZ2hlUEppbmpyWkdOZlZSdGdTV2RLbE9GWHdBVUE3OVlWYXctZ1JDRl90M2tBN2NNWnVZdGg2NE9rSDhTYm1nUQ?oc=5",
+          "published": "2026-08-13T05:10:25+00:00",
+          "source": "CNN Indonesia"
         },
         {
-          "title": "Ramalan Laba GOTO Akhir 2026 & 2027, Keluar Target Harga Baru - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNlo2WGtvWlk1R2ptVWN2dGFRclF0SkVOd3Q1T3JoVHNKMzRZSmpOd0J2UV9hYTZ6MEJDTklYTHFOTWRkQjlzeUZGaFItMkV1Y0RVSG5iNTFmOVZnbUV1cUs3Q1lvNUFrdWZua3M1WUl4ZjBaMTN4bWNKNVNmYjlfdkUxSjRPSzVyeXJ5cjdnNnZzNVE1SnA0?oc=5",
-          "published": "2026-08-11T07:22:07+00:00",
-          "source": "investor.id"
-        },
-        {
-          "title": "MSCI Umumkan Hasil Index Review Pada 13 Agustus 2026, Penentuan Nasib CPIN dan GOTO - insight.kontan.co.id",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbzMwYzMyQWYyUjg5QlZ6dUtLaTRwX0pPbmJ6S0xNenZHZnU2eGREU3NIcFlhMUw4ejZOd2RtRFdoeUpWMXMxRmUwbkJQSWVkLTI2Nk14elVtSEVXZElLVjZSa0Rtb2dSZ0JNeDJEVXh5ekZsYUlvYmZ2ZDRUWi05RGxwWWJFSGx5VDVOblJQT2luTUNyTUxUWFc5bU9mT0JyMHJVVWVJNG80M19nTG1pdFNhMlpWTjQ?oc=5",
-          "published": "2026-08-10T00:58:26+00:00",
-          "source": "insight.kontan.co.id"
+          "title": "Alasan MSCI Keluarkan GOTO dari Indeks - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOandFcndWUG5fa21taExOeEhqVWpiVjBUdjlHV3E1ZjFDZlppR1RJYVZGTUNTUTFkeHVXYnRJOVEzamNGcW56YTlNNFU2MVpWZ0RXcHp4clZIdWxXVjNvMFZ0R3VabFBlVUJwbXRJaVV1M09PTHJfeHNRSWc2UUYzYm1JQjhXQV9tcTM3dW9xcE1aR0lONnJz?oc=5",
+          "published": "2026-08-12T23:00:00+00:00",
+          "source": "Bloomberg Technoz"
         }
       ],
       "sentiment": {
@@ -458,11 +458,11 @@
       "symbol": "BUKA.JK",
       "name": "Bukalapak",
       "sector": "Teknologi",
-      "price": 113.0,
-      "change_pct": -4.24,
-      "volume": 61424500,
-      "market_cap": 10377203023872,
-      "pe_ratio": 6.158038,
+      "price": 112.0,
+      "change_pct": -5.08,
+      "volume": 218155800,
+      "market_cap": 10285369786368,
+      "pe_ratio": 6.1035423,
       "dividend_yield": null,
       "eps": 18.35,
       "week52_high": 198.0,
@@ -478,11 +478,11 @@
       "symbol": "UNVR.JK",
       "name": "Unilever Indonesia",
       "sector": "Consumer Goods",
-      "price": 1750.0,
-      "change_pct": -0.57,
-      "volume": 694200,
-      "market_cap": 66467156459520,
-      "pe_ratio": 17.851679,
+      "price": 1730.0,
+      "change_pct": -1.7,
+      "volume": 9995800,
+      "market_cap": 65707534450688,
+      "pe_ratio": 17.64766,
       "dividend_yield": 1295.0,
       "eps": 98.03,
       "week52_high": 2840.0,
@@ -511,13 +511,13 @@
       "symbol": "ICBP.JK",
       "name": "Indofood CBP",
       "sector": "Consumer Goods",
-      "price": 7500.0,
-      "change_pct": -0.66,
-      "volume": 422000,
-      "market_cap": 87464307851264,
-      "pe_ratio": 11.843289,
+      "price": 7550.0,
+      "change_pct": 0.0,
+      "volume": 3348500,
+      "market_cap": 88047408381952,
+      "pe_ratio": 11.933174,
       "dividend_yield": 351.0,
-      "eps": 633.27,
+      "eps": 632.69,
       "week52_high": 10050.0,
       "week52_low": 5925.0,
       "error": null,
@@ -531,11 +531,11 @@
       "symbol": "INDF.JK",
       "name": "Indofood Sukses Makmur",
       "sector": "Consumer Goods",
-      "price": 7275.0,
-      "change_pct": -1.36,
-      "volume": 248800,
-      "market_cap": 63877601558528,
-      "pe_ratio": 6.6741896,
+      "price": 7350.0,
+      "change_pct": -0.34,
+      "volume": 5678500,
+      "market_cap": 64536132452352,
+      "pe_ratio": 6.7429953,
       "dividend_yield": 393.0,
       "eps": 1090.02,
       "week52_high": 8175.0,
@@ -551,11 +551,11 @@
       "symbol": "MYOR.JK",
       "name": "Mayora Indah",
       "sector": "Consumer Goods",
-      "price": 1670.0,
-      "change_pct": 0.3,
-      "volume": 406100,
-      "market_cap": 36784561979392,
-      "pe_ratio": 10.8901205,
+      "price": 1665.0,
+      "change_pct": 0.0,
+      "volume": 3246600,
+      "market_cap": 36674427944960,
+      "pe_ratio": 10.857515,
       "dividend_yield": 360.0,
       "eps": 153.35,
       "week52_high": 2490.0,
@@ -571,13 +571,13 @@
       "symbol": "GGRM.JK",
       "name": "Gudang Garam",
       "sector": "Consumer Goods",
-      "price": 20050.0,
-      "change_pct": 2.43,
-      "volume": 401700,
-      "market_cap": 38577966678016,
-      "pe_ratio": 8.73665,
+      "price": 20025.0,
+      "change_pct": 2.3,
+      "volume": 1703100,
+      "market_cap": 38529862205440,
+      "pe_ratio": 8.728571,
       "dividend_yield": 409.0,
-      "eps": 2294.93,
+      "eps": 2294.19,
       "week52_high": 21825.0,
       "week52_low": 8300.0,
       "error": null,
@@ -601,15 +601,15 @@
           "source": "Radar Malang"
         },
         {
-          "title": "Saham Gudang Garam Berbalik Arah Melemah Sesi Kedua, Ini Kata Analis - Liputan6.com",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRUVOTEd5MFBzVndabDlWN0czcUVfMUJuaEJiNGxSc1BFaGFPZ1RScXpXNFZ4aGZpVDQtYVB4OUZYSjNzOEtfaEhFd1J1UUdMNXVvYkl5ZmNwa0hHdzJPZWVHcFVSeWxoMXVvcWUwSnFhMEU0U1FPZXdhWDRGUjJlOG5ueG5xZFNOOEFwQTdJbEgxOU90dGdzQUU0d1ZtWnJoSjBDdUJUTlh4UnhRWjNWTNIBpwFBVV95cUxQZmNMOTFXU1lmTi1rYmNkdDZHc0pMUldtM0lFYml2Z1hsc2c5Yy11WTB2TGttZHVSUUxYYnozRUFsZTM0ZVRkWGxWSzVzZVVXR2thdWw2VzNaclVPOElsM21xQ2tnc3ZMQWlXdmk4cHVxUlhVUUxMZ19raWltMHhYNDhCZ3BMbkw4d1FFSG01TlgtUVI4UFRFVE8tUnltakNFeEViaFdMNA?oc=5",
-          "published": "2026-08-11T08:03:05+00:00",
-          "source": "Liputan6.com"
+          "title": "Gudang Garam (GGRM) Tiba-tiba Banting Setir - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSFZWOHVkcjBIdUNrQUhsaVJCRVJIanJnZFFGcEJzMVRqbHRnR0t4UVZzbk4wajZkclpHcURUM2draDVhMUNmaDNWdFVnaGlQQS1pbFhadzhZWVJwWmtlNjB0cFlYalZrdHIyQTNlRC0zTE1ZUW5TQmpjUjZmOFE?oc=5",
+          "published": "2026-08-10T23:30:00+00:00",
+          "source": "investor.id"
         },
         {
-          "title": "Gudang Garam (GGRM) Tak Ditinggalkan - investor.id",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wUVFLNGo5WjVrVFZrbGRUVzRibmpMaGY5MDdYQXhjWlJjR0loU0RPaFR5M0dKbjQwYnJpcnVaaEFVQlRYa2ZMalJNTkdfYUZKdnJGTXpXTlRLaTBucER5RURNdXJqRjhCUzVtYUtXZUxGSjQ5MXRz?oc=5",
-          "published": "2026-08-11T23:20:00+00:00",
+          "title": "Suratan Takdir Gudang Garam (GGRM) - Halaman 2 - investor.id",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FbWsxcHZvMEtQY01fR29GNW1URHozeUJXMEZTRE5iUnJqLUgxYm91Vm9DeHpLQzF0a3UxTXJpYjdyRW83dDB6cjdLNDNJVlQ2QmE5MjBNZjktTm9rTHFxOHdsWEdMSlcwaWNTdXRnUHNiV3BCLU5B?oc=5",
+          "published": "2026-08-12T05:51:00+00:00",
           "source": "investor.id"
         }
       ],
@@ -622,12 +622,12 @@
       "symbol": "HMSP.JK",
       "name": "HM Sampoerna",
       "sector": "Consumer Goods",
-      "price": 735.0,
-      "change_pct": 0.68,
-      "volume": 1422600,
-      "market_cap": 85493790277632,
-      "pe_ratio": 9.803922,
-      "dividend_yield": 771.0,
+      "price": 730.0,
+      "change_pct": 0.0,
+      "volume": 11267500,
+      "market_cap": 84912199696384,
+      "pe_ratio": 9.737228,
+      "dividend_yield": 761.0,
       "eps": 74.97,
       "week52_high": 1000.0,
       "week52_low": 510.0,
@@ -642,11 +642,11 @@
       "symbol": "SIDO.JK",
       "name": "Industri Jamu Sido Muncul",
       "sector": "Consumer Goods",
-      "price": 354.0,
-      "change_pct": 0.0,
-      "volume": 7842800,
-      "market_cap": 10420060422144,
-      "pe_ratio": 10.858896,
+      "price": 350.0,
+      "change_pct": -1.13,
+      "volume": 49185200,
+      "market_cap": 10302320017408,
+      "pe_ratio": 10.7361965,
       "dividend_yield": 1045.0,
       "eps": 32.6,
       "week52_high": 585.0,
@@ -662,11 +662,11 @@
       "symbol": "CPIN.JK",
       "name": "Charoen Pokphand Indonesia",
       "sector": "Consumer Goods",
-      "price": 3080.0,
-      "change_pct": -2.22,
-      "volume": 4136100,
-      "market_cap": 50505841639424,
-      "pe_ratio": 6.7853365,
+      "price": 3070.0,
+      "change_pct": -2.54,
+      "volume": 16401300,
+      "market_cap": 50341861130240,
+      "pe_ratio": 6.763306,
       "dividend_yield": 571.0,
       "eps": 453.92,
       "week52_high": 5375.0,
@@ -674,34 +674,34 @@
       "error": null,
       "news": [
         {
+          "title": "IHSG Turun, Saham ESSA Jatuh 7% Imbas Didepak MSCI - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNV0hEa1U4RTVmd3BXU25QOHFFVE50ZXVPZU82WExzdWhia3gwRzkwc0N4WDdESmQtVktwdFljNmU5WXZVeElLMVpQaE51QjVHYlZOV1gwTWFlRGRqOFhBaVpoc19nY2ZwVjB6SlktLTEwZ0ZnQk1sSUZKLXZqSGQzNHJjbjdsUTBuSEhPQjhuRFZQM25pdTBEMjB6S1hNQUFqbnFQSg?oc=5",
+          "published": "2026-08-13T06:07:00+00:00",
+          "source": "Bloomberg Technoz"
+        },
+        {
           "title": "MSCI hapus 10 saham RI dari indeks global, berikut daftarnya - idnfinancials.com",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQnNIeWZOd2t2YTdtYnF0bDJHcE5mbkE0UTZ2elhWaHl3WE4zektuTDdoNVJYaF9PeHdsMVo3dU1iMG1ta1ZSUHVEcm5Ea0VzNXRjYWVmNFZxcl96UVBnRTdQdTlFVHRiOXhIcEpNd0pvdWdPNU5xV1pjdGJEa3k3Z3VicjlPeWx6bEdkNUo0Q3ctZjExcng2cEF0ZHVPS3VWcVk2WlJ3?oc=5",
           "published": "2026-08-12T23:22:00+00:00",
           "source": "idnfinancials.com"
         },
         {
-          "title": "9 Saham Indonesia Bertahan di MSCI Global Standard Index, Cek Daftarnya - idxchannel.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWDBQYnk0VnJYWnRVbVFzTGNJNTZlWWYtSTMyYm1UVWl2Rmx0RVg1WDJNeFhlUXQzS1lRLXBobHJXaTJ5WThKaUpyeTdRem96eG44Sm01clBEb015Q2RoemltUjFJVFlVZjFLbTFoc3pLdEItd09fc3FncTN6dXpNNU15NEdXZk9ERkZqX1o1bm9BTmFMQ3N6Qjl0c0d5czRGQmVxNEFZVUhuYUFYaE1tWm54Z9IBswFBVV95cUxOWDBQYnk0VnJYWnRVbVFzTGNJNTZlWWYtSTMyYm1UVWl2Rmx0RVg1WDJNeFhlUXQzS1lRLXBobHJXaTJ5WThKaUpyeTdRem96eG44Sm01clBEb015Q2RoemltUjFJVFlVZjFLbTFoc3pLdEItd09fc3FncTN6dXpNNU15NEdXZk9ERkZqX1o1bm9BTmFMQ3N6Qjl0c0d5czRGQmVxNEFZVUhuYUFYaE1tWm54Zw?oc=5",
-          "published": "2026-08-12T23:23:00+00:00",
-          "source": "idxchannel.com"
+          "title": "MSCI Ubah Komposisi Saham RI, Ekonom Beberkan Dampaknya ke Pasar Domestik - Infobanknews",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXEwd1FrME1Va0xFNGlieVBoZHFTNlBDNXRnaFIxOGRzLXAzWEhBX0xiNXBTcWZOS2JpUFpDT25ncDh5T2NJNkNBU3BNblQzZ1JycHZyM25CYVB6OG8xQ3owQ1AweUd5TkZUdk5JV3lGTUVnQUE1VVVKVjFSekhpZVIwWUtoZHUyNm5ZS3N0WWZoblB3bVJyc2pHUTk3Zw?oc=5",
+          "published": "2026-08-13T07:20:00+00:00",
+          "source": "Infobanknews"
         },
         {
-          "title": "MSCI Depak GOTO dari Indeks, CPIN Turun Kelas - Market - Bloomberg Technoz",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTFkZTdLcmFmUmpiWGNrSE9yR1BFaE54Y18tT29yMGRTQ3p5al93NmEwNzJVRnNtRkQya3YyLU42bWx5TGloUFpnMVRSR3c2eHZJVWcxNlVoUDZBcjNKVl9YMGtzcG9NZnhGZURiaTdrRjdtTnFLLUowRUJqMWl5LWNCWm95WmdHbjNxTGtVa3NaZDg0aXBGY21Sd1hHbTQ?oc=5",
-          "published": "2026-08-12T22:08:59+00:00",
-          "source": "Bloomberg Technoz"
+          "title": "9 Saham Indonesia Bertahan di MSCI Global Standard Index, Cek Daftarnya - IDX Channel",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWDBQYnk0VnJYWnRVbVFzTGNJNTZlWWYtSTMyYm1UVWl2Rmx0RVg1WDJNeFhlUXQzS1lRLXBobHJXaTJ5WThKaUpyeTdRem96eG44Sm01clBEb015Q2RoemltUjFJVFlVZjFLbTFoc3pLdEItd09fc3FncTN6dXpNNU15NEdXZk9ERkZqX1o1bm9BTmFMQ3N6Qjl0c0d5czRGQmVxNEFZVUhuYUFYaE1tWm54Z9IBswFBVV95cUxOWDBQYnk0VnJYWnRVbVFzTGNJNTZlWWYtSTMyYm1UVWl2Rmx0RVg1WDJNeFhlUXQzS1lRLXBobHJXaTJ5WThKaUpyeTdRem96eG44Sm01clBEb015Q2RoemltUjFJVFlVZjFLbTFoc3pLdEItd09fc3FncTN6dXpNNU15NEdXZk9ERkZqX1o1bm9BTmFMQ3N6Qjl0c0d5czRGQmVxNEFZVUhuYUFYaE1tWm54Zw?oc=5",
+          "published": "2026-08-12T23:23:00+00:00",
+          "source": "IDX Channel"
         },
         {
           "title": "MSCI Agustus 2026: CPIN dan GOTO Keluar dari Global Standard, Ini Daftarnya - InvestorTrust",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkNWbGtOeXlJYWdXQW5JdWZqMW9jajktMm9RUjNRZF90c1IwbmMxYm5hMXg3dWJrNFFqOXBrVG1LZmNwUWQ5Zi16RDRnTkx3Wjh0X25BT1UxRkV0OVFobXVEUkx0TF9FcU1nZE51WGloVTl0WmN3TndMME1WU0VGMDFRLUl1eHpQb0ZfNTh5S2h0MHNxcjRwQ1hLVGNvdWg1NHMxeWEtMkV3RXY0UkxacGNB?oc=5",
           "published": "2026-08-12T07:49:00+00:00",
           "source": "InvestorTrust"
-        },
-        {
-          "title": "Hasil Review MSCI: Saham GOTO Terdepak, Saham CPIN Turun Kelas - kontan.co.id",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGRWRXBvVy01RXlUQmY1Vkwyb0E1LWVrN1lEMXF6VlppWHJBVmFwSmxUWVZwZjU3TmFWSk1veHdVUExoVlZqVkt5UGlqcFRVWmkxQlBRVWI1NC0wSnloenJaOGxqUDRXckRGTmIxZU92dTBOYWNSbUIyYWZKd21mQ2RSaWw3VmFBb0gwSXJfZjh1Z2VId0VUR29ZUlfSAZQBQVVfeXFMTnFyUlYtUEtIX24zUTFaRWQtLVVvd3RlbVVzYXdBSkJEZk9vcWM4aHh2WHJxeVU0T0pXMGdyVnpITnk4bzF3a25LcEF0SGRSUWdWaHBFQm95YzhzdmU4V2tLSVk2eG1GV0VyMGQ4OExfQmVzOTZEWG1zRlZwckVvcEhtTERILWlwVmx0OUp0U0U0SUozSA?oc=5",
-          "published": "2026-08-12T21:41:39+00:00",
-          "source": "kontan.co.id"
         }
       ],
       "sentiment": {
@@ -713,17 +713,29 @@
       "symbol": "AMRT.JK",
       "name": "Sumber Alfaria Trijaya",
       "sector": "Ritel",
-      "price": 1375.0,
-      "change_pct": -1.08,
-      "volume": 1681200,
-      "market_cap": 56501272051712,
-      "pe_ratio": 15.980939,
+      "price": 1350.0,
+      "change_pct": -2.88,
+      "volume": 35838400,
+      "market_cap": 55473973755904,
+      "pe_ratio": 15.690376,
       "dividend_yield": 299.0,
       "eps": 86.04,
       "week52_high": 2430.0,
       "week52_low": 1105.0,
       "error": null,
       "news": [
+        {
+          "title": "Menakar Prospek Sumber Alfaria (AMRT) di Tengah Efisiensi dan Tekanan Daya Beli - kontan.co.id",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaTNXbmJqbHR1c19paDk1c2RDc3lvbUN4NHJGay1vdElUQzRaNmhNSUJOVHVkYnMwMExNbU8wT045YmIxWlNRc2xiUmJ2YXVZRzNfUnllUkJ4cnB2UE1GNTc5X045YUVadDRZdWM1QUxna09fb00zU3YtSGp2M3E4X0dBME9pN0JydXR6VF9Jd0ZRT1lFS2I4X1cyOTBxWWsxMlAyNmotU25scHpBeXdHSVpyZ9IBqwFBVV95cUxOaTExajlmUnJGRGxIaTE1WVNQRlRPeFJjdjZUUFNMak5XbFFMZzhVdGFiUzQ3aUt6Y3l3WWhDNHNwQVUwR0NoZTlZcjRFa3JnTE14TjROZG81TG1kVUplckMtYlpDUlMzM2pxeFdZa215SmNQMU1TRldOZlhmdnNkTFZRNHJaM1BaTlF1cE91UUJqbEdmZ01UTngtSmxvT0VLLXc3dy1rNVRPRkk?oc=5",
+          "published": "2026-08-13T08:40:46+00:00",
+          "source": "kontan.co.id"
+        },
+        {
+          "title": "Pertumbuhan EPS AMRT Melambat, Ini Rekomendasi Saham dari Analis - kontan.co.id",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcW04TzlxQy1CSlh3WmNfMVhGMVFkMmlnTTd4WHM4SWEzU05sTjZKVmo3cWtIbFppVi1XRkJOOVl1bThJLXR5ZXNSMkpNeHoyQlR1ano2T1NWT09IZTJWdF9UNnQwVmwwYXYxTzZVMGJMdlBtTlYwbDkwVzF2RTl2eGZVd04yNDNrU09QZHg2WmM2MnZUaHYxeXhFSDlkM2dN0gGYAUFVX3lxTE1aV1JkemtiRFhVWVhieWUzTG9mMDc0eFZwbWlhRk5Fc2ZMMWpQTW9jWmI1bmx1UWtIaXNMbF9xMjJoa2xFcjZmQjFYUVVWRHFqVk5QVjBULWdLcXVWbi1yTURjcnVVYmZpTzM3bHE2QUJxWVZzN0ZaTHlSLUlvVlVtemFFYmJ2ZHZfRUJXSlhCZDF4UWtTcWN2?oc=5",
+          "published": "2026-08-13T08:12:59+00:00",
+          "source": "kontan.co.id"
+        },
         {
           "title": "Saham AMRT Naik Lebih dari 7 Persen dalam Sepekan, Cek Kinerja Terbaru Perseroan! - Sinar Harapan - Sinar Harapan",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX3RVVmRPOXpNQ081SnpVcnhTb2hZeDNnN1hfajlfcVFid1cybzZQckN4eFZLcWYyeWRWcEZlSlRWOTdCRjRBUU1KS2FnaUo3OFVZSWxaVEhIaFY3QTRDTHV4VVRfT3V1M2d3Sy05cUhYR1NmY2lNUnRsZ0xBcm51S0gxNl9Tc0JENGpaQVlZeVFuazhtUmE1dWRVZWxFV3RTY2hTSlY4elUtUzJLVEVoazNkMDNhSFNwcXF6NlBOMWcxVnhHMVHSAcsBQVVfeXFMTVJwX3VLanluR05ja09BRTltNU1VbDBLUnBCcDZaRE9sY0M4NlY4ZlZPaTluVEtjWERsYjBNSW56NGJZSnFEbHh1SURzWnB4a0k2WGVubXByWG41Y3VpRmtzejhWRXV2MzRsc3gyLVZORW0zZzc3Sk1wcGZYN1BuTXQxcmFkeFlkR1hKOTZOenl1Q1kyaXZ5UFpUN2YzN2lidC0yMUFTQUJ3MWN2LTNiYVJzTHBUUmkxUHZxOU4xRnB3Z01zeDVobk4zOXM?oc=5",
@@ -742,7 +754,7 @@
       "sector": "Kesehatan",
       "price": 800.0,
       "change_pct": 0.0,
-      "volume": 8409200,
+      "volume": 41788700,
       "market_cap": 36199087472640,
       "pe_ratio": 10.050251,
       "dividend_yield": 250.0,
@@ -752,16 +764,10 @@
       "error": null,
       "news": [
         {
-          "title": "Menyimak Strategi Trading Saham KLBF Saat Tren Penguatan Harga Mulai Terbentuk - insight.kontan.co.id",
+          "title": "Menyimak Strategi Trading Saham KLBF Saat Tren Penguatan Harga Mulai Terbentuk - KONTAN",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUF9sekhuYW1TYmcxOXlBMW5LSzVuZ1M0TG5ETHJmaVdZSi16eHRGRkZlYzVpTGJYZjBhSWVUaURMOWNuUjVaQWMxaTI0aDFyalg5QmxVbS1jM2MzVDZNeHpoaDVhb29wNmhxaFJqb3I3SE5wQ0lZMnI0TW03Y3BOem5VSkRZR3hYUEplWHBUN2N1VmlwNE01dHFrLXBBM18xSW5ZbjZxSFF0MjJLZTYtXzBB?oc=5",
           "published": "2026-08-12T00:37:07+00:00",
-          "source": "insight.kontan.co.id"
-        },
-        {
-          "title": "KLBF Catat Laba Rp1,91 Triliun, Turun Tipis di Semester I-2026 - idxchannel.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNUY3RnVhTHhKcHpoNHBuVGk5Ulg5a2hpdl9wblZERWg0WWdHZzlzZGpuak01d1pENzN5QU92cE5DUUpfQ2twTDMta2ZWeDVJMU5IOVl2UVlmWlJnWkhQcmo2S215YnFoRnE2NWIzV2pSR3AySEF3QXNFMWZ1eXVlaXZTM094bEFFclNvMFhFd3JyS2R2VkZZWG4wME8tTW5pSDk1bWxR0gGmAUFVX3lxTE01RjdGdWFMeEpwemg0cG5UaTlSWDlraGl2X3BuVkRFaDRZZ0dnOXNkam5qTTV3WkQ3M3lBT3ZwTkNRSl9Da3BMMy1rZlZ4NUkxTkg5WXZRWWZaUmdaSFByajZLbXlicWhGcTY1YjNXalJHcDJIQXdBc0UxZnV5dWVpdlMzT3hsQUVyU28wWEV3cnJLZHZWRllYbjAwTy1NbmlIOTVtbFE?oc=5",
-          "published": "2026-08-10T00:46:00+00:00",
-          "source": "idxchannel.com"
+          "source": "KONTAN"
         }
       ],
       "sentiment": {
@@ -773,17 +779,23 @@
       "symbol": "ASII.JK",
       "name": "Astra International",
       "sector": "Otomotif",
-      "price": 4840.0,
-      "change_pct": -0.41,
-      "volume": 3968900,
-      "market_cap": 193213096787968,
-      "pe_ratio": 6.53895,
+      "price": 4800.0,
+      "change_pct": -1.23,
+      "volume": 48407300,
+      "market_cap": 191616291700736,
+      "pe_ratio": 6.484909,
       "dividend_yield": 802.0,
       "eps": 740.18,
       "week52_high": 7475.0,
       "week52_low": 4350.0,
       "error": null,
       "news": [
+        {
+          "title": "Cuma 9 Saham RI Bertahan di MSCI, Astra International (ASII) dan United Tractors (UNTR) Masih Jadi Andalan - InvestorTrust",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcjN1OW5yd3NVWGtVNndfalFzMVh3RzZ4bEZuS0JnekljZ1h1MjU5eXpPOWZTR0FiSEVKZlF4R2R1aEdGWUpOdV9CUnQ3RlZialRmQzRmX08xSXJaZFlpc0wxRGdhSEdWWlgxSGpuZ2ZxTHFWOXlQNVlQSUNzLTN6RTRWbzR5XzUyMHU2SEJlaTg3X05EZEY4MWFYby1hTDNnZ1lrT19BRDVQbHc0NmRNUUkzaFdNVkR3WU55UTFUZGhoNWNESzAxLTdYYkdOenN3VnJkQVZURQ?oc=5",
+          "published": "2026-08-12T18:47:00+00:00",
+          "source": "InvestorTrust"
+        },
         {
           "title": "Penjualan Mobil Astra Melonjak 23% di Juli 2026, Tapi Saham ASII Malah Tertekan - kontan.co.id",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSm1hQVJjS3EzNHd1SDVYUWRYeURhLWs4Rm13bnJkajVHUnRFS1hKdUhXckh2VFJMa2lkZGM1SUtmWFNIcHp1Qi1LNmhZMGpwOW12LUt0MjRNSTJXSDM5RV9YUkktOGhtQWVYcElwelF0TFVwbUoycmFmOHpaRGNydVQ1NmJFMVVRb0Vva2lXNjlPd1lDUkF2eVlZRUFFSmxwRWJJaXNTd0hOUnZzeHY2aXc4QdIBqwFBVV95cUxORTZfZVdUNkVYUmptaWhsWFV2TkpsTnlIaEdZMHhsSk03R3htSTNaS3JULXNSYnppNTVSWmxzandQemVwNEp6SUVnamFxNmp2MFhtekRlbVBNWGx6RFg5NDF0NjdwRG5oNFlNMVQyWGJQYW5WTkZTbDdpR0Y0b2dpcWVxNWZyRkNMcm9OQk5DUTJLQk5zczBFUGhvb3B2TnJ6UENGNVg5c3ZGNTg?oc=5",
@@ -806,11 +818,11 @@
       "symbol": "UNTR.JK",
       "name": "United Tractors",
       "sector": "Alat Berat",
-      "price": 23400.0,
-      "change_pct": 0.43,
-      "volume": 334300,
-      "market_cap": 81738395025408,
-      "pe_ratio": 11.072678,
+      "price": 23075.0,
+      "change_pct": -0.97,
+      "volume": 3430900,
+      "market_cap": 80603139538944,
+      "pe_ratio": 10.91889,
       "dividend_yield": 941.0,
       "eps": 2113.31,
       "week52_high": 32825.0,
@@ -818,16 +830,16 @@
       "error": null,
       "news": [
         {
+          "title": "Cuma 9 Saham RI Bertahan di MSCI, Astra International (ASII) dan United Tractors (UNTR) Masih Jadi Andalan - InvestorTrust",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcjN1OW5yd3NVWGtVNndfalFzMVh3RzZ4bEZuS0JnekljZ1h1MjU5eXpPOWZTR0FiSEVKZlF4R2R1aEdGWUpOdV9CUnQ3RlZialRmQzRmX08xSXJaZFlpc0wxRGdhSEdWWlgxSGpuZ2ZxTHFWOXlQNVlQSUNzLTN6RTRWbzR5XzUyMHU2SEJlaTg3X05EZEY4MWFYby1hTDNnZ1lrT19BRDVQbHc0NmRNUUkzaFdNVkR3WU55UTFUZGhoNWNESzAxLTdYYkdOenN3VnJkQVZURQ?oc=5",
+          "published": "2026-08-12T18:47:00+00:00",
+          "source": "InvestorTrust"
+        },
+        {
           "title": "Astra (ASII) Perkuat Cengkeraman, Saham Treasuri UNTR Naik Jadi 6,86 Persen - KabarBursa.com",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMUFBSFVGWk10Qk9EZzJaYUN3d0lKOG5VdVpuQ1pXcjZIc01LQk1QV3UxOGtyWmdDeF90c2thS0lwWDVqT0R6cUdpYXNLV2RvVW5nR1pNeExaT3ZXM0dtZVVkc3Q2OVh3THhjeDY3OVZ3OHNGdlNwSmVZcEhCLWpobFVlaXB1cXR1dWRRNE4zNnpsRmM0UGhZRWpLamtGMFRlTG9RQUhxZHJ1a1gtMlVKRWxGSHI?oc=5",
           "published": "2026-08-10T00:12:00+00:00",
           "source": "KabarBursa.com"
-        },
-        {
-          "title": "United Tractors (UNTR) Masih Tekanan: Prospek Ditopang RKAB dan Tambang Martabe - kontan.co.id",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzRSRkZSTHJEOTdNVXd1cGxpblN2dHk5bXBHLU1SSGNqQ3BWTmw4QmRkcDVXdnA2cy1Mc1FEQlhCSnRZbGJMd2xLMmxyQlU1SFJUaDJvN2hPWk91QUZodmFkaWtmLWZMa29nS01jVlJkbnFWMXFTSGdkSzFfWWlMSVJWSTA0cjVKVEZUcU1wOVVxMkZVbFJTUHZyWG5yOVFzYWdLd2paQ3ZDc3ptUS12bk1R0gGqAUFVX3lxTFA1b2dnMVU3RGN4ZVlOQkFydDlFUVhxdzNyQWZ5bEhCSGd5OGx1U0p5QU1YdmFCNUUwVWRwUW1MUlJtVk5OSGJST0lhRUdSQXcteUpUT1lITWNCTWZWUmZVQXJ6NVdvRG5EcUJER2VZeTBvUkJKdFB2WUlsOVN1N2lrMDFDZXFyWW1xbnVmY0VDbmdhMnljcE1OOGVtQXdZRk1nb1FLS1ZfLUhn?oc=5",
-          "published": "2026-08-06T10:18:14+00:00",
-          "source": "kontan.co.id"
         }
       ],
       "sentiment": {
@@ -839,13 +851,13 @@
       "symbol": "SMGR.JK",
       "name": "Semen Indonesia",
       "sector": "Semen",
-      "price": 1505.0,
-      "change_pct": -3.22,
-      "volume": 5582900,
-      "market_cap": 10136994185216,
-      "pe_ratio": 43.992985,
+      "price": 1510.0,
+      "change_pct": -2.89,
+      "volume": 15883400,
+      "market_cap": 10170672349184,
+      "pe_ratio": 44.34655,
       "dividend_yield": 182.0,
-      "eps": 34.21,
+      "eps": 34.05,
       "week52_high": 3260.0,
       "week52_low": 1380.0,
       "error": null,
@@ -857,22 +869,28 @@
           "source": "CNN Indonesia"
         },
         {
+          "title": "Terbuang dari MSCI, Pasar Hukum Saham Manoj Punjabi hingga BUMN - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEg0SVIxR3RnMFhCTFpHYnMtaUdZRDMxUkZmY2xZbXg2LUdIRXNFN0cxXzJIbnZIMUtCNkVIcEZUaFQwQWZXYjZzaVFlQXlOdDFId1N4Vi0wbUJ6QlpVSzlqbWpMUmdlMFliZlNOcHFNTU9tZm5FRnJEMlRSQWtWRWFldU9pYXJNenAzNVVCbEVaZWJPYVpoUHlEMll1NzhVTTE4dHV0Z1JSdzNua2hEUjNzaUs?oc=5",
+          "published": "2026-08-13T03:15:00+00:00",
+          "source": "Bloomberg Technoz"
+        },
+        {
+          "title": "MSCI Keluarkan 10 Saham Indonesia dari Indeks - Tempo.co",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUVtQTV3V0FCRGVjeVI1NFBXNFJGUUozU1RoOGF5YkdXVEpOMkpkY3hhcWpXd0dsMWJKUXhHS0syNmR1ZThKdWlrNmllUGdyd01mTVBsRFFiSmZtdEQ1Rk82YkRwM0NtZkVGTUUzNGFFUll5NzlhQmVhRC1QQ3ZkVnVoeTNfYWhNeUE?oc=5",
+          "published": "2026-08-13T03:15:00+00:00",
+          "source": "Tempo.co"
+        },
+        {
           "title": "MSCI Coret 10 Saham Indonesia dari Indeks Global - achmadnurhidayat.id",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WTExMWGd6WG1yYTdVMzdjTEpabWlSbERCZnhyWXZuOGNTYkFzZlpRZFk5UkNBQjRNd2Q1eGwyWWdhRmNnM1RFMkxqU2FSN0NBRHg0Ymh4TjNBOE5uLXMxQ3VhbGY1RGpYVk1EeU40cENsblRKNzdXcHNTVQ?oc=5",
           "published": "2026-08-12T22:14:00+00:00",
           "source": "achmadnurhidayat.id"
         },
         {
-          "title": "Cek! Daftar 10 Saham RI Didepak MSCI - finance.detik.com",
+          "title": "Cek! Daftar 10 Saham RI Didepak MSCI - detikFinance",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUJKZEZ0cGswNG9hSjRCa0tXZjRfaFdXR1ZTR1JHUkcxUVdSTFE4S3FEN1ZyVF9JS05tbWlsREdjY01rLS1JNTdGR0VCdFMya0hUN3ljeGl1czhDUVlLQ2czNVRjYnBJZkwxMm9IMlpHVVQtTUpXZ2p3VDkxNlk1cndXUTU0SXY2WGNMam9ObjbSAZYBQVVfeXFMUEJKNXJrLXR1MEJuTFRGOXpoM0NEVFhnNmFzTnp2b0tMbFpReVViejRnT0VacE11QXozdzlwWUxTVmZwc1I5SW1SVGQ2QlZ3R2tXaHJiOVEyYWJvNkt3Qm5GeUl3T1BCSzhERWJCa2c2anpha2hUYUl0bi02MVRXazZ4eEtzVVhiYy1CZXlzcUV4T0pCZ1BR?oc=5",
           "published": "2026-08-12T22:11:09+00:00",
-          "source": "finance.detik.com"
-        },
-        {
-          "title": "Hasil Review MSCI: Saham GOTO Terdepak, Saham CPIN Turun Kelas - kontan.co.id",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGRWRXBvVy01RXlUQmY1Vkwyb0E1LWVrN1lEMXF6VlppWHJBVmFwSmxUWVZwZjU3TmFWSk1veHdVUExoVlZqVkt5UGlqcFRVWmkxQlBRVWI1NC0wSnloenJaOGxqUDRXckRGTmIxZU92dTBOYWNSbUIyYWZKd21mQ2RSaWw3VmFBb0gwSXJfZjh1Z2VId0VUR29ZUlfSAZQBQVVfeXFMTnFyUlYtUEtIX24zUTFaRWQtLVVvd3RlbVVzYXdBSkJEZk9vcWM4aHh2WHJxeVU0T0pXMGdyVnpITnk4bzF3a25LcEF0SGRSUWdWaHBFQm95YzhzdmU4V2tLSVk2eG1GV0VyMGQ4OExfQmVzOTZEWG1zRlZwckVvcEhtTERILWlwVmx0OUp0U0U0SUozSA?oc=5",
-          "published": "2026-08-12T21:41:39+00:00",
-          "source": "kontan.co.id"
+          "source": "detikFinance"
         }
       ],
       "sentiment": {
@@ -884,11 +902,11 @@
       "symbol": "INTP.JK",
       "name": "Indocement Tunggal Prakarsa",
       "sector": "Semen",
-      "price": 5300.0,
-      "change_pct": -0.47,
-      "volume": 134600,
-      "market_cap": 18184688107520,
-      "pe_ratio": 7.506019,
+      "price": 5250.0,
+      "change_pct": -1.41,
+      "volume": 1550500,
+      "market_cap": 18013134782464,
+      "pe_ratio": 7.435208,
       "dividend_yield": 879.0,
       "eps": 706.1,
       "week52_high": 7475.0,
@@ -904,11 +922,11 @@
       "symbol": "PGAS.JK",
       "name": "Perusahaan Gas Negara",
       "sector": "Energi",
-      "price": 1495.0,
-      "change_pct": 0.67,
-      "volume": 4492700,
-      "market_cap": 36241055678464,
-      "pe_ratio": 8.396518,
+      "price": 1475.0,
+      "change_pct": -0.67,
+      "volume": 25697600,
+      "market_cap": 35756223496192,
+      "pe_ratio": 8.284189,
       "dividend_yield": 846.0,
       "eps": 178.05,
       "week52_high": 2520.0,
@@ -924,11 +942,11 @@
       "symbol": "PTBA.JK",
       "name": "Bukit Asam",
       "sector": "Pertambangan",
-      "price": 2350.0,
-      "change_pct": 0.0,
-      "volume": 869000,
-      "market_cap": 27058738561024,
-      "pe_ratio": 8.103728,
+      "price": 2340.0,
+      "change_pct": -0.43,
+      "volume": 5823800,
+      "market_cap": 26943594430464,
+      "pe_ratio": 8.069244,
       "dividend_yield": 487.0,
       "eps": 289.99,
       "week52_high": 3220.0,
@@ -946,7 +964,7 @@
       "sector": "Pertambangan",
       "price": 2470.0,
       "change_pct": -1.98,
-      "volume": 4682600,
+      "volume": 21270000,
       "market_cap": 71137216167936,
       "pe_ratio": 8.087224,
       "dividend_yield": 939.0,
@@ -964,11 +982,11 @@
       "symbol": "ITMG.JK",
       "name": "Indo Tambangraya Megah",
       "sector": "Pertambangan",
-      "price": 24375.0,
-      "change_pct": -1.52,
-      "volume": 167900,
-      "market_cap": 26878318477312,
-      "pe_ratio": 7.2044406,
+      "price": 24425.0,
+      "change_pct": -1.31,
+      "volume": 1477600,
+      "market_cap": 27231409668096,
+      "pe_ratio": 7.2192187,
       "dividend_yield": 699.0,
       "eps": 3383.33,
       "week52_high": 30700.0,
@@ -1009,11 +1027,11 @@
       "symbol": "ANTM.JK",
       "name": "Aneka Tambang",
       "sector": "Pertambangan",
-      "price": 3080.0,
-      "change_pct": -0.32,
-      "volume": 10555600,
-      "market_cap": 74014760370176,
-      "pe_ratio": 8.720519,
+      "price": 3000.0,
+      "change_pct": -2.91,
+      "volume": 86077700,
+      "market_cap": 72092292743168,
+      "pe_ratio": 8.494012,
       "dividend_yield": 680.0,
       "eps": 353.19,
       "week52_high": 4970.0,
@@ -1021,16 +1039,16 @@
       "error": null,
       "news": [
         {
+          "title": "Jelang Lapkeu Semester I, Cek Target dan Rekomendasi Saham ANTM - Market - Bloomberg Technoz",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjJKRk1uTDhxTGJFdW5sR1Rud1NCMzFwNUdZT0JkOVpSRTlWTEZmRHU5U29icWFiRlI5VTIwZXh0U1RBTUwyWHpfS2JscG94cmhkYUtvbF9wOWpCeDFrOFR2ejVoWGR1WUdic05QRGQzYVhPNEFiYnh5R2Z3cExmV0E1ZW94Mm5ZeUQ2bGZ6RzlNTmRVdGdJN0RjalR3Wl9xTE5CR21FckFtSkYtakJnNmtYZl9Pd0k?oc=5",
+          "published": "2026-08-13T08:09:16+00:00",
+          "source": "Bloomberg Technoz"
+        },
+        {
           "title": "Permintaan Emas Masih Cukup Kuat, Cermati Saham Rekomendasi Analis - kontan.co.id",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWjBFZzJVbXlaakRkcnlwWjN6bXRxX3RXdnVQTkF1b3NYaDBuU3VOZlFsbEVOeGRlejA2QVRzY1gtNWxJbXVScVVhajBDeFp5YUM5dHFMaE9sU2ViSVhLT0VhbGZCZG96MVQtb1l6ZS1HSlZpOUxyWEljY21ZUkJmdnpDNUhfNEhRQ1kzREVhakNQWjFXajlISC16WUhBdnZRSFAw0gGbAUFVX3lxTE1fTFlOeUJxR2dQS21aaTBuYjRSUGJ2ZENqVnVUWUxwYm11ajZXd3FfZDdwNzJUOWwyU3E5T05qdVRNRzhjaVktdHh0UnJPOVhYdHFHR1hobXktN25WRDFvM0xWWVUtTWZacXJGN05kc3hwbEM3QThJT0dFUlMyQ3Z1ejZPc3FxV09GWUxYZDkwZzNVb1ZXeFVCbHpN?oc=5",
           "published": "2026-08-12T00:17:08+00:00",
           "source": "kontan.co.id"
-        },
-        {
-          "title": "Broker Asing Diam-diam Borong Saham ANTM - Bloomberg Technoz",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM2tMSklOb2NPTi1EOVBnVU9EQjVyMTNOUVl1OHhxSUJ1M25ZbVViLTN4WUVhZVhIbFVkTkFmakdPQnBwM0dIWENqNE1NSXJfNVgtbUUyVmlLc205VHpTX0xBSkJCN3gxN2hOdWdoMGVMRS0xQXNpU0QyMDZqSGN5Yjc0MTRDNnpGd29TUmhVS1lLN1AxQmJZ?oc=5",
-          "published": "2026-08-06T03:05:00+00:00",
-          "source": "Bloomberg Technoz"
         }
       ],
       "sentiment": {
@@ -1042,11 +1060,11 @@
       "symbol": "MDKA.JK",
       "name": "Merdeka Copper Gold",
       "sector": "Pertambangan",
-      "price": 2840.0,
-      "change_pct": -2.41,
-      "volume": 7398400,
-      "market_cap": 69344000212992,
-      "pe_ratio": 1622.8572,
+      "price": 2790.0,
+      "change_pct": -4.12,
+      "volume": 38376400,
+      "market_cap": 68123155759104,
+      "pe_ratio": 1594.2858,
       "dividend_yield": 42.0,
       "eps": 1.75,
       "week52_high": 3960.0,
@@ -1081,11 +1099,11 @@
       "symbol": "INCO.JK",
       "name": "Vale Indonesia",
       "sector": "Pertambangan",
-      "price": 5225.0,
-      "change_pct": -0.95,
-      "volume": 684500,
-      "market_cap": 55070372659200,
-      "pe_ratio": 19.970186,
+      "price": 5000.0,
+      "change_pct": -5.21,
+      "volume": 11001400,
+      "market_cap": 52698921566208,
+      "pe_ratio": 19.110228,
       "dividend_yield": 148.0,
       "eps": 261.64,
       "week52_high": 7900.0,
@@ -1093,10 +1111,16 @@
       "error": null,
       "news": [
         {
-          "title": "Kepemilikan Saham INCO Juli 2026, Porsi Asing Naik Jadi 56,29 Persen - KabarBursa.com",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb0x3bGlhYV9qM2puUTVST0kzY083VTVKcEQ0QWFVeUdBcXE2V0s2TV90M29MWk5yZWp0Mk42Zm93dmNvbjFPWURPSHFtZWszd1E1YVBTTFFzUHBCeURTam14SUpBTlY0SXczdUZoN1dDb3VCMXl1cUM4VXNoNVhzTmlMZXJnUWt2ZmFKaEg0UzZvNDVPYWR2VmZPdVpQRGVuLWhJUDRWSm1fY1BvRHc?oc=5",
-          "published": "2026-08-06T03:04:00+00:00",
-          "source": "KabarBursa.com"
+          "title": "Proyek Smelter HPAL Catat Progres Signifikan, Ini Prospek Saham Vale Indonesia (INCO) - kontan.co.id",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeVdSZFF1UmxabHkyUUIybU5zVE9mS3ZSdjRsdkJuRWNKUmRQOXFsWWxKU3Y0MlhxcS1jX3d1elBKTTVKM2NNYUFvMHNHNmRROTRpNHI0VDQwN002TnZIZUpDcU9OU1QxUEpYQWFlRFBMUGpFY1JjUzRmTU92VTBuZS1YMVpHV0FHY1VoVHU3QWg0TnozY1hOVVBPVDVOMHNydUZpNEctV3A2czhPM0tpN2MxSjJpel9uYmfSAbIBQVVfeXFMTXpEdXVEZFdZMi12MktfS1hTVXN2c1NWQllxRFdzdGNJY2hkMFlhaEFlOWMxalNDSC01NGpKZUc2eV9mbW9uQUt6UGFfa1dEWjMtZW5POE9rQlBvYzdqSV9sUGVlR3FPZlZ3a0lPSHFXYmwxQUtJUFVDb21vRXIyc2h1eXMzMlN3bnlDTHhxMVNfRlV1SmtoX012bHlQNm01S3kzOWlIVWU2NGNwbGFJcGsyQQ?oc=5",
+          "published": "2026-08-13T11:24:07+00:00",
+          "source": "kontan.co.id"
+        },
+        {
+          "title": "Sederet Saham Terdepak dari MSCI, Bagaimana Prospeknya ke Depan? - kontan.co.id",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWXI3dWRSUlV0NC1vVGc1OGgtckFqYlllN2R4ZUdpU3pMY1NWdXIzZkZLNWxTQTl4bXd5TTZHdUpkZGliOTZjMDlIMDQ5Zi1VZ3NTWlhOQllEbHBheXdsTW1abzcwelBYOTlKc21LLUl5ZG1TVDNBS1BXWFNXcWd6TmxzZnp6OEdRTmlsdXFZb2huYm5GLWRoSGFjVkt6alnSAZcBQVVfeXFMTWNCT1MzWlJ3WGMwUDRJbGhkRFVBdjF2VWVyNmFJbTBBQkdHblNYS3FGbjRDeWdqb2FoMkNJTTZiMmk3cnozUkJPS3pxV0VINndVQlkzaVA4U3JCdk83YnVrNlJNckZTbkVqSlRfWmtRd2E3VjVzN1V1enFKb3VrQWRncmtJa3dZWVFpN3VwaGtzY3JROTdlUQ?oc=5",
+          "published": "2026-08-13T11:32:45+00:00",
+          "source": "kontan.co.id"
         }
       ],
       "sentiment": {
@@ -1108,11 +1132,11 @@
       "symbol": "BSDE.JK",
       "name": "Bumi Serpong Damai",
       "sector": "Properti",
-      "price": 590.0,
-      "change_pct": -0.84,
-      "volume": 2140800,
-      "market_cap": 12338903121920,
-      "pe_ratio": 6.6284685,
+      "price": 585.0,
+      "change_pct": -1.68,
+      "volume": 5477100,
+      "market_cap": 12234335977472,
+      "pe_ratio": 6.572295,
       "dividend_yield": null,
       "eps": 89.01,
       "week52_high": 1200.0,
@@ -1128,11 +1152,11 @@
       "symbol": "CTRA.JK",
       "name": "Ciputra Development",
       "sector": "Properti",
-      "price": 605.0,
-      "change_pct": -0.82,
-      "volume": 521500,
-      "market_cap": 11214094598144,
-      "pe_ratio": 4.4475484,
+      "price": 595.0,
+      "change_pct": -2.46,
+      "volume": 6706300,
+      "market_cap": 11028737818624,
+      "pe_ratio": 4.3740354,
       "dividend_yield": 590.0,
       "eps": 136.03,
       "week52_high": 1110.0,
@@ -1150,7 +1174,7 @@
       "sector": "Properti",
       "price": 326.0,
       "change_pct": -0.61,
-      "volume": 845800,
+      "volume": 4213600,
       "market_cap": 5381793251328,
       "pe_ratio": 9.042996,
       "dividend_yield": 152.0,
@@ -1168,11 +1192,11 @@
       "symbol": "PWON.JK",
       "name": "Pakuwon Jati",
       "sector": "Properti",
-      "price": 256.0,
-      "change_pct": 0.0,
-      "volume": 636300,
-      "market_cap": 12328857763840,
-      "pe_ratio": 5.56159,
+      "price": 254.0,
+      "change_pct": -0.78,
+      "volume": 15856100,
+      "market_cap": 12232538718208,
+      "pe_ratio": 5.5181403,
       "dividend_yield": 508.0,
       "eps": 46.03,
       "week52_high": 440.0,
@@ -1195,11 +1219,11 @@
       "symbol": "MAPI.JK",
       "name": "Mitra Adiperkasa",
       "sector": "Ritel",
-      "price": 1550.0,
-      "change_pct": 2.65,
-      "volume": 1398900,
-      "market_cap": 25729999831040,
-      "pe_ratio": 10.399893,
+      "price": 1510.0,
+      "change_pct": 0.0,
+      "volume": 5575900,
+      "market_cap": 25066001661952,
+      "pe_ratio": 10.131509,
       "dividend_yield": 66.0,
       "eps": 149.04,
       "week52_high": 1940.0,
@@ -1228,11 +1252,11 @@
       "symbol": "ACES.JK",
       "name": "Ace Hardware Indonesia",
       "sector": "Ritel",
-      "price": 356.0,
-      "change_pct": -1.11,
-      "volume": 1329300,
-      "market_cap": 6094859010048,
-      "pe_ratio": 7.9749107,
+      "price": 354.0,
+      "change_pct": -1.67,
+      "volume": 11461300,
+      "market_cap": 6060618285056,
+      "pe_ratio": 7.9301076,
       "dividend_yield": 889.0,
       "eps": 44.64,
       "week52_high": 484.0,
@@ -1248,14 +1272,14 @@
       "symbol": "ERAA.JK",
       "name": "Erajaya Swasembada",
       "sector": "Ritel",
-      "price": 464.0,
-      "change_pct": 1.75,
-      "volume": 5418000,
-      "market_cap": 7258026016768,
-      "pe_ratio": 5.167613,
+      "price": 456.0,
+      "change_pct": 0.0,
+      "volume": 91249300,
+      "market_cap": 7132887384064,
+      "pe_ratio": 5.0785165,
       "dividend_yield": 548.0,
       "eps": 89.79,
-      "week52_high": 484.0,
+      "week52_high": 476.0,
       "week52_low": 314.0,
       "error": null,
       "news": [
