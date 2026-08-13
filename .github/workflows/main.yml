@@ -1,0 +1,38 @@
+name: Update Stock Data
+
+on:
+  schedule:
+    # Jalan tiap hari kerja jam 16:30 WIB (09:30 UTC), setelah bursa IDX tutup (16:00/16:15 WIB)
+    - cron: "30 9 * * 1-5"
+  workflow_dispatch: {}  # bisa dijalankan manual dari tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Jalankan build_data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python src/build_data.py
+
+      - name: Commit & push data baru
+        run: |
+          git config user.name "idx-screener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/stocks.json
+          git diff --cached --quiet || git commit -m "Update data saham: $(date +'%Y-%m-%d %H:%M')"
+          git push
